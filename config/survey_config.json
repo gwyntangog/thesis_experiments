@@ -1,0 +1,31 @@
+{
+  "feeling_thermometer": [
+    {
+      "q_id": "ft_democrats",
+      "question": "How do you feel toward Democrats? Rate from 0 (very cold/unfavorable) to 100 (very warm/favorable).",
+      "type": "scale_0_100"
+    },
+    {
+      "q_id": "ft_republicans",
+      "question": "How do you feel toward Republicans? Rate from 0 to 100.",
+      "type": "scale_0_100"
+    },
+    {
+      "q_id": "ft_immigrants",
+      "question": "How do you feel toward immigrants? Rate from 0 to 100.",
+      "type": "scale_0_100"
+    }
+  ],
+  "policy_questions": [
+    {
+      "q_id": "healthcare",
+      "question": "Do you think the government should ensure all Americans have health insurance? (1=Strongly Disagree to 7=Strongly Agree)",
+      "type": "scale_1_7"
+    },
+    {
+      "q_id": "immigration",
+      "question": "Do you support stricter immigration policies? (1=Strongly Disagree to 7=Strongly Agree)",
+      "type": "scale_1_7"
+    }
+  ]
+}

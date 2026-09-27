@@ -1,0 +1,40 @@
+{
+  "personas": [
+    {
+      "id": "persona_001",
+      "name": "Republican, HS Education",
+      "traits": {
+        "age": 35,
+        "education": "high school",
+        "party": "Republican",
+        "race": "white",
+        "gender": "male",
+        "region": "South"
+      }
+    },
+    {
+      "id": "persona_002",
+      "name": "Democrat, College Educated",
+      "traits": {
+        "age": 42,
+        "education": "college",
+        "party": "Democrat",
+        "race": "white",
+        "gender": "female",
+        "region": "Northeast"
+      }
+    },
+    {
+      "id": "persona_003",
+      "name": "Independent, Graduate Degree",
+      "traits": {
+        "age": 55,
+        "education": "graduate",
+        "party": "Independent",
+        "race": "Asian",
+        "gender": "male",
+        "region": "West"
+      }
+    }
+  ]
+}
