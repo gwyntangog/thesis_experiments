@@ -19,13 +19,15 @@ def prepare_anes_data(anes_file):
 
     # Rename for clarity
     df_clean = df.rename(columns={
-        'vcf0218': 'dem_thermometer',
-        'vcf0224': 'rep_thermometer',
-        'vcf0303': 'party_id',
-        'vcf0110': 'education',
-        'vcf0105a': 'age',
-        'vcf0106': 'race'
+        'VCF0218': 'dem_thermometer',
+        'VCF0224': 'rep_thermometer',
+        'VCF0303': 'party_id',
+        'VCF0110': 'education',
+        'VCF0105a': 'age',
+        'VCF0106': 'race'
     })
+
+    print(df_clean["dem_thermometer"].unique())
 
     # Remove missing values (typically coded as 98, 99)
     df_clean = df_clean[(df_clean['dem_thermometer'] >= 0) &
