@@ -1,0 +1,3 @@
+data/human_survey/*.csv
+data/human_survey/*.dta
+data/human_survey/*.xlsx
