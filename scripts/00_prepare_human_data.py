@@ -30,6 +30,12 @@ def prepare_anes_data(anes_file):
     print(df_clean["dem_thermometer"].unique())
 
     # Remove missing values (typically coded as 98, 99)
+    # df_clean['dem_thermometer'] = df_clean['dem_thermometer'].astype(float)
+    df_clean['dem_thermometer'] = df_clean['dem_thermometer'].astype(str).str.strip()
+    df_clean['dem_thermometer'] = pd.to_numeric(df_clean['dem_thermometer'], errors='coerce').fillna(0).astype(int)
+
+    print(df_clean["dem_thermometer"].unique())
+
     df_clean = df_clean[(df_clean['dem_thermometer'] >= 0) &
                         (df_clean['dem_thermometer'] <= 100)]
 
