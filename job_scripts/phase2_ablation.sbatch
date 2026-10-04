@@ -11,7 +11,7 @@
 #SBATCH -c 8
 #SBATCH --gres=gpu:1
 #SBATCH --mem=32GB
-#SBATCH --time=03:00:00
+#SBATCH --time=03:00:00git
 #SBATCH --output=logs/phase2_ablation_%j.log
 
 set -e
@@ -24,6 +24,7 @@ echo "Start time: $(date)"
 echo ""
 
 module load miniforge/24.3.0-0
+export HF_TOKEN=$(cat ~/.cache/huggingface/token)
 pip install --quiet transformers torch peft
 
 mkdir -p logs
