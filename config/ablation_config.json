@@ -1,0 +1,6 @@
+{
+  "ablation_strategy": "one_at_a_time",
+  "traits_to_ablate": ["party", "education", "age", "race"],
+  "replacement_text": "unspecified",
+  "notes": "For each persona, we remove one trait and replace with neutral text"
+}
