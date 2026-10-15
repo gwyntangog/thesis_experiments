@@ -1,0 +1,21 @@
+========================================
+Phase 2: Trait Ablation Experiment
+========================================
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+[Loading Model] mistralai/Mistral-7B-Instruct-v0.1...
+Downloading shards:   0%|          | 0/2 [00:00<?, ?it/s]Downloading shards:  50%|█████     | 1/2 [02:15<02:15, 135.23s/it]Downloading shards: 100%|██████████| 2/2 [03:11<00:00, 89.01s/it] Downloading shards: 100%|██████████| 2/2 [03:11<00:00, 95.95s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:07<00:07,  7.38s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:10<00:00,  4.94s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:10<00:00,  5.31s/it]
+[✓] Model loaded successfully
+
+[Republican, HS Education]
+================================================================================
+Traceback (most recent call last):
+  File "/orcd/home/002/gwynt/thesis_experiments/scripts/05_run_trait_ablation_llama.py", line 215, in <module>
+    run_ablation_experiment(personas, survey, ablation, num_runs=args.num_runs, output_dir=args.output_dir)
+  File "/orcd/home/002/gwynt/thesis_experiments/scripts/05_run_trait_ablation_llama.py", line 110, in run_ablation_experiment
+    baseline_prompt = build_persona_prompt(base_traits)
+  File "/orcd/home/002/gwynt/thesis_experiments/scripts/05_run_trait_ablation_llama.py", line 35, in build_persona_prompt
+    trait_str = ", ".join([f"{k.title()}: {v.title()}" for k, v in traits_dict.items() if v])
+  File "/orcd/home/002/gwynt/thesis_experiments/scripts/05_run_trait_ablation_llama.py", line 35, in <listcomp>
+    trait_str = ", ".join([f"{k.title()}: {v.title()}" for k, v in traits_dict.items() if v])
+AttributeError: 'int' object has no attribute 'title'
