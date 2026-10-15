@@ -1,4 +1,5 @@
 {
+
   "feeling_thermometer": [
     {
       "q_id": "ft_democrats",
@@ -26,6 +27,18 @@
       "q_id": "immigration",
       "question": "Do you support stricter immigration policies? (1=Strongly Disagree to 7=Strongly Agree)",
       "type": "scale_1_7"
+    }
+  ],
+  "questions": [
+    {
+      "q_id": "dem_thermometer",
+      "question": "How do you feel toward the Democratic Party? Rate from 0 (very cold/unfavorable) to 100 (very warm/favorable).",
+      "type": "scale_0_100"
+    },
+    {
+      "q_id": "rep_thermometer",
+      "question": "How do you feel toward the Republican Party? Rate from 0 to 100.",
+      "type": "scale_0_100"
     }
   ]
 }
