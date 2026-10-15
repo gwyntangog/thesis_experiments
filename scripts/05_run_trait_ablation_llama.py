@@ -12,7 +12,7 @@ import argparse
 from datetime import datetime
 from copy import deepcopy
 
-def load_llama_model(model_name="meta-llama/Llama-2-7b-chat-hf"):
+def load_llama_model(model_name="mistralai/Mistral-7B-Instruct-v0.1"):
     """Load Llama from HuggingFace"""
     print(f"[Loading Model] {model_name}...")
 
