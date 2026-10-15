@@ -32,7 +32,7 @@ def load_llama_model(model_name="mistralai/Mistral-7B-Instruct-v0.1"):
 
 def build_persona_prompt(traits_dict):
     """Create system prompt from trait dict"""
-    trait_str = ", ".join([f"{k.title()}: {v.title()}" for k, v in traits_dict.items() if v])
+    trait_str = ", ".join([f"{k.title()}: {v}" for k, v in traits_dict.items() if v])
     return f"""You are roleplaying as a person with these characteristics: {trait_str}.
 You hold opinions typical of someone with this background.
 When asked survey questions, respond with ONLY a number between 0 and 100.
