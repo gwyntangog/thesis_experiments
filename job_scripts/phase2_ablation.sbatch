@@ -1,5 +1,3 @@
-# Create a clean sbatch script
-cat > job_scripts/phase2_ablation.sbatch << 'EOF'
 #!/bin/bash
 #SBATCH -p mit_normal_gpu
 #SBATCH --job-name=persona_phase2_ablation
