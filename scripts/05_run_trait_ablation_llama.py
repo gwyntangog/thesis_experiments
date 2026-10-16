@@ -111,7 +111,7 @@ def run_ablation_experiment(personas_config, survey_config, ablation_config, num
         print("=" * 80)
 
         # Get baseline (full persona)
-        baseline_prompt = build_persona_prompt(base_traits)
+        baseline_prompt = build_persona_prompt(template_dict)
         baseline_responses = {"full": {}}
 
         print(f"  Baseline (Full Persona): ", end="")
@@ -134,13 +134,13 @@ def run_ablation_experiment(personas_config, survey_config, ablation_config, num
         print()
 
         # Ablate each trait
-        traits_to_ablate = ablation_config.get("traits_to_ablate", list(base_traits.keys()))
+        traits_to_ablate = ablation_config.get("traits_to_ablate", list(template_dict.keys()))
 
         for trait_to_remove in traits_to_ablate:
-            if trait_to_remove not in base_traits:
+            if trait_to_remove not in template_dict:
                 continue
 
-            ablated_traits = create_ablated_persona(base_traits, trait_to_remove, ablation_config)
+            ablated_traits = create_ablated_persona(template_dict, trait_to_remove, ablation_config)
             ablated_prompt = build_persona_prompt(ablated_traits)
 
             ablated_responses = {}
