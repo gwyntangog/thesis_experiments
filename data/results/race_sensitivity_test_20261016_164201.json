@@ -1,0 +1,578 @@
+[
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "race_tested": "non-Hispanic white",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:41:53.131858"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "race_tested": "non-Hispanic white",
+    "q_id": "rep_thermometer",
+    "response": 70,
+    "timestamp": "2026-10-16T16:41:53.234689"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "race_tested": "non-Hispanic black",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:41:53.337841"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "race_tested": "non-Hispanic black",
+    "q_id": "rep_thermometer",
+    "response": 75,
+    "timestamp": "2026-10-16T16:41:53.440647"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "race_tested": "Hispanic",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:41:53.544234"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "race_tested": "Hispanic",
+    "q_id": "rep_thermometer",
+    "response": 80,
+    "timestamp": "2026-10-16T16:41:53.789589"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:41:53.899812"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "rep_thermometer",
+    "response": 90,
+    "timestamp": "2026-10-16T16:41:54.002647"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "race_tested": "non-Hispanic white",
+    "q_id": "dem_thermometer",
+    "response": 20,
+    "timestamp": "2026-10-16T16:41:54.105814"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "race_tested": "non-Hispanic white",
+    "q_id": "rep_thermometer",
+    "response": 90,
+    "timestamp": "2026-10-16T16:41:54.208521"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "race_tested": "non-Hispanic black",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:41:54.311648"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "race_tested": "non-Hispanic black",
+    "q_id": "rep_thermometer",
+    "response": 95,
+    "timestamp": "2026-10-16T16:41:54.414300"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "race_tested": "Hispanic",
+    "q_id": "dem_thermometer",
+    "response": 20,
+    "timestamp": "2026-10-16T16:41:54.517285"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "race_tested": "Hispanic",
+    "q_id": "rep_thermometer",
+    "response": 80,
+    "timestamp": "2026-10-16T16:41:54.619823"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "dem_thermometer",
+    "response": 20,
+    "timestamp": "2026-10-16T16:41:54.723250"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "rep_thermometer",
+    "response": 95,
+    "timestamp": "2026-10-16T16:41:54.826040"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "race_tested": "non-Hispanic white",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:41:54.929196"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "race_tested": "non-Hispanic white",
+    "q_id": "rep_thermometer",
+    "response": 90,
+    "timestamp": "2026-10-16T16:41:55.174548"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "race_tested": "non-Hispanic black",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:41:55.277640"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "race_tested": "non-Hispanic black",
+    "q_id": "rep_thermometer",
+    "response": 80,
+    "timestamp": "2026-10-16T16:41:55.522916"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "race_tested": "Hispanic",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:41:55.626155"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "race_tested": "Hispanic",
+    "q_id": "rep_thermometer",
+    "response": 90,
+    "timestamp": "2026-10-16T16:41:55.871500"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:41:55.974959"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "rep_thermometer",
+    "response": 50,
+    "timestamp": "2026-10-16T16:41:56.101646"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "race_tested": "non-Hispanic white",
+    "q_id": "dem_thermometer",
+    "response": 80,
+    "timestamp": "2026-10-16T16:41:56.204811"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "race_tested": "non-Hispanic white",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:41:56.307557"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "race_tested": "non-Hispanic black",
+    "q_id": "dem_thermometer",
+    "response": 90,
+    "timestamp": "2026-10-16T16:41:56.410767"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "race_tested": "non-Hispanic black",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:41:56.513473"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "race_tested": "Hispanic",
+    "q_id": "dem_thermometer",
+    "response": 90,
+    "timestamp": "2026-10-16T16:41:56.759210"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "race_tested": "Hispanic",
+    "q_id": "rep_thermometer",
+    "response": 5,
+    "timestamp": "2026-10-16T16:41:56.838064"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "dem_thermometer",
+    "response": 80,
+    "timestamp": "2026-10-16T16:41:56.941399"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:41:57.044129"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "race_tested": "non-Hispanic white",
+    "q_id": "dem_thermometer",
+    "response": 80,
+    "timestamp": "2026-10-16T16:41:57.147200"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "race_tested": "non-Hispanic white",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:41:57.249776"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "race_tested": "non-Hispanic black",
+    "q_id": "dem_thermometer",
+    "response": 85,
+    "timestamp": "2026-10-16T16:41:57.353016"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "race_tested": "non-Hispanic black",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:41:57.455671"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "race_tested": "Hispanic",
+    "q_id": "dem_thermometer",
+    "response": 85,
+    "timestamp": "2026-10-16T16:41:57.558656"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "race_tested": "Hispanic",
+    "q_id": "rep_thermometer",
+    "response": 50,
+    "timestamp": "2026-10-16T16:41:57.803778"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "dem_thermometer",
+    "response": 95,
+    "timestamp": "2026-10-16T16:41:58.049930"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:41:58.152697"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "race_tested": "non-Hispanic white",
+    "q_id": "dem_thermometer",
+    "response": 85,
+    "timestamp": "2026-10-16T16:41:58.255847"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "race_tested": "non-Hispanic white",
+    "q_id": "rep_thermometer",
+    "response": 5,
+    "timestamp": "2026-10-16T16:41:58.334676"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "race_tested": "non-Hispanic black",
+    "q_id": "dem_thermometer",
+    "response": 85,
+    "timestamp": "2026-10-16T16:41:58.437699"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "race_tested": "non-Hispanic black",
+    "q_id": "rep_thermometer",
+    "response": 20,
+    "timestamp": "2026-10-16T16:41:58.540395"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "race_tested": "Hispanic",
+    "q_id": "dem_thermometer",
+    "response": 85,
+    "timestamp": "2026-10-16T16:41:58.643343"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "race_tested": "Hispanic",
+    "q_id": "rep_thermometer",
+    "response": 20,
+    "timestamp": "2026-10-16T16:41:58.745915"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "dem_thermometer",
+    "response": 95,
+    "timestamp": "2026-10-16T16:41:58.849113"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:41:58.951776"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "race_tested": "non-Hispanic white",
+    "q_id": "dem_thermometer",
+    "response": 40,
+    "timestamp": "2026-10-16T16:41:59.055046"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "race_tested": "non-Hispanic white",
+    "q_id": "rep_thermometer",
+    "response": 45,
+    "timestamp": "2026-10-16T16:41:59.157819"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "race_tested": "non-Hispanic black",
+    "q_id": "dem_thermometer",
+    "response": 20,
+    "timestamp": "2026-10-16T16:41:59.261013"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "race_tested": "non-Hispanic black",
+    "q_id": "rep_thermometer",
+    "response": 20,
+    "timestamp": "2026-10-16T16:41:59.363676"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "race_tested": "Hispanic",
+    "q_id": "dem_thermometer",
+    "response": 75,
+    "timestamp": "2026-10-16T16:41:59.466707"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "race_tested": "Hispanic",
+    "q_id": "rep_thermometer",
+    "response": 60,
+    "timestamp": "2026-10-16T16:41:59.569388"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "dem_thermometer",
+    "response": 50,
+    "timestamp": "2026-10-16T16:41:59.672817"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "rep_thermometer",
+    "response": 20,
+    "timestamp": "2026-10-16T16:41:59.775701"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "race_tested": "non-Hispanic white",
+    "q_id": "dem_thermometer",
+    "response": 65,
+    "timestamp": "2026-10-16T16:41:59.878867"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "race_tested": "non-Hispanic white",
+    "q_id": "rep_thermometer",
+    "response": 30,
+    "timestamp": "2026-10-16T16:41:59.981482"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "race_tested": "non-Hispanic black",
+    "q_id": "dem_thermometer",
+    "response": 60,
+    "timestamp": "2026-10-16T16:42:00.227340"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "race_tested": "non-Hispanic black",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:42:00.330060"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "race_tested": "Hispanic",
+    "q_id": "dem_thermometer",
+    "response": 50,
+    "timestamp": "2026-10-16T16:42:00.433146"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "race_tested": "Hispanic",
+    "q_id": "rep_thermometer",
+    "response": 5,
+    "timestamp": "2026-10-16T16:42:00.511959"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "dem_thermometer",
+    "response": 75,
+    "timestamp": "2026-10-16T16:42:00.615254"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "rep_thermometer",
+    "response": 15,
+    "timestamp": "2026-10-16T16:42:00.717929"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "race_tested": "non-Hispanic white",
+    "q_id": "dem_thermometer",
+    "response": 75,
+    "timestamp": "2026-10-16T16:42:00.821022"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "race_tested": "non-Hispanic white",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:42:00.923859"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "race_tested": "non-Hispanic black",
+    "q_id": "dem_thermometer",
+    "response": 70,
+    "timestamp": "2026-10-16T16:42:01.026937"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "race_tested": "non-Hispanic black",
+    "q_id": "rep_thermometer",
+    "response": 15,
+    "timestamp": "2026-10-16T16:42:01.129577"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "race_tested": "Hispanic",
+    "q_id": "dem_thermometer",
+    "response": 75,
+    "timestamp": "2026-10-16T16:42:01.232551"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "race_tested": "Hispanic",
+    "q_id": "rep_thermometer",
+    "response": 5,
+    "timestamp": "2026-10-16T16:42:01.311346"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "dem_thermometer",
+    "response": 75,
+    "timestamp": "2026-10-16T16:42:01.414594"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "race_tested": "of unspecified race/ethnicity",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "timestamp": "2026-10-16T16:42:01.517288"
+  }
+]

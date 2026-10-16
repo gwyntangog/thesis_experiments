@@ -1,0 +1,213 @@
+[Loading Model] mistralai/Mistral-7B-Instruct-v0.1...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:14<00:14, 14.40s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:21<00:00,  9.94s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:21<00:00, 10.61s/it]
+[✓] Model loaded successfully
+
+[Republican, HS, Conservative]
+================================================================================
+  Testing race: non-Hispanic white             The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+✓
+  Testing race: non-Hispanic black             ✓
+  Testing race: Hispanic                       ✓
+  Testing race: of unspecified race/ethnicity  ✓
+
+[Republican, College, Conservative]
+================================================================================
+  Testing race: non-Hispanic white             ✓
+  Testing race: non-Hispanic black             ✓
+  Testing race: Hispanic                       ✓
+  Testing race: of unspecified race/ethnicity  ✓
+
+[Republican, Graduate, Conservative]
+================================================================================
+  Testing race: non-Hispanic white             ✓
+  Testing race: non-Hispanic black             ✓
+  Testing race: Hispanic                       ✓
+  Testing race: of unspecified race/ethnicity  ✓
+
+[Democrat, HS, Liberal]
+================================================================================
+  Testing race: non-Hispanic white             ✓
+  Testing race: non-Hispanic black             ✓
+  Testing race: Hispanic                       ✓
+  Testing race: of unspecified race/ethnicity  ✓
+
+[Democrat, College, Liberal]
+================================================================================
+  Testing race: non-Hispanic white             ✓
+  Testing race: non-Hispanic black             ✓
+  Testing race: Hispanic                       ✓
+  Testing race: of unspecified race/ethnicity  ✓
+
+[Democrat, Graduate, Liberal]
+================================================================================
+  Testing race: non-Hispanic white             ✓
+  Testing race: non-Hispanic black             ✓
+  Testing race: Hispanic                       ✓
+  Testing race: of unspecified race/ethnicity  ✓
+
+[Independent, HS, Moderate]
+================================================================================
+  Testing race: non-Hispanic white             ✓
+  Testing race: non-Hispanic black             ✓
+  Testing race: Hispanic                       ✓
+  Testing race: of unspecified race/ethnicity  ✓
+
+[Independent, College, Moderate]
+================================================================================
+  Testing race: non-Hispanic white             ✓
+  Testing race: non-Hispanic black             ✓
+  Testing race: Hispanic                       ✓
+  Testing race: of unspecified race/ethnicity  ✓
+
+[Independent, Graduate, Moderate]
+================================================================================
+  Testing race: non-Hispanic white             ✓
+  Testing race: non-Hispanic black             ✓
+  Testing race: Hispanic                       ✓
+  Testing race: of unspecified race/ethnicity  ✓
+
+================================================================================
+[✓] Results saved to: data/results/race_sensitivity_test_20261016_164201.json
+[✓] Total tests: 72
+================================================================================
+
+================================================================================
+RACE SENSITIVITY ANALYSIS
+================================================================================
+
+Response Range by Persona (all races, all questions):
+--------------------------------------------------------------------------------
+Republican, HS, Conservative             | Range:  10- 90 (Δ= 80) | Mean:  44.4
+Republican, College, Conservative        | Range:  10- 95 (Δ= 85) | Mean:  53.8
+Republican, Graduate, Conservative       | Range:  10- 90 (Δ= 80) | Mean:  43.8
+Democrat, HS, Liberal                    | Range:   5- 90 (Δ= 85) | Mean:  46.9
+Democrat, College, Liberal               | Range:  10- 95 (Δ= 85) | Mean:  53.1
+Democrat, Graduate, Liberal              | Range:   5- 95 (Δ= 90) | Mean:  50.6
+Independent, HS, Moderate                | Range:  20- 75 (Δ= 55) | Mean:  41.2
+Independent, College, Moderate           | Range:   5- 75 (Δ= 70) | Mean:  38.8
+Independent, Graduate, Moderate          | Range:   5- 75 (Δ= 70) | Mean:  41.9
+
+
+By Persona and Question:
+--------------------------------------------------------------------------------
+
+Republican, HS, Conservative:
+  dem_thermometer:
+    non-Hispanic white            :  10
+    non-Hispanic black            :  10
+    Hispanic                      :  10
+    of unspecified race/ethnicity :  10
+  rep_thermometer:
+    non-Hispanic white            :  70
+    non-Hispanic black            :  75
+    Hispanic                      :  80
+    of unspecified race/ethnicity :  90
+
+Republican, College, Conservative:
+  dem_thermometer:
+    non-Hispanic white            :  20
+    non-Hispanic black            :  10
+    Hispanic                      :  20
+    of unspecified race/ethnicity :  20
+  rep_thermometer:
+    non-Hispanic white            :  90
+    non-Hispanic black            :  95
+    Hispanic                      :  80
+    of unspecified race/ethnicity :  95
+
+Republican, Graduate, Conservative:
+  dem_thermometer:
+    non-Hispanic white            :  10
+    non-Hispanic black            :  10
+    Hispanic                      :  10
+    of unspecified race/ethnicity :  10
+  rep_thermometer:
+    non-Hispanic white            :  90
+    non-Hispanic black            :  80
+    Hispanic                      :  90
+    of unspecified race/ethnicity :  50
+
+Democrat, HS, Liberal:
+  dem_thermometer:
+    non-Hispanic white            :  80
+    non-Hispanic black            :  90
+    Hispanic                      :  90
+    of unspecified race/ethnicity :  80
+  rep_thermometer:
+    non-Hispanic white            :  10
+    non-Hispanic black            :  10
+    Hispanic                      :   5
+    of unspecified race/ethnicity :  10
+
+Democrat, College, Liberal:
+  dem_thermometer:
+    non-Hispanic white            :  80
+    non-Hispanic black            :  85
+    Hispanic                      :  85
+    of unspecified race/ethnicity :  95
+  rep_thermometer:
+    non-Hispanic white            :  10
+    non-Hispanic black            :  10
+    Hispanic                      :  50
+    of unspecified race/ethnicity :  10
+
+Democrat, Graduate, Liberal:
+  dem_thermometer:
+    non-Hispanic white            :  85
+    non-Hispanic black            :  85
+    Hispanic                      :  85
+    of unspecified race/ethnicity :  95
+  rep_thermometer:
+    non-Hispanic white            :   5
+    non-Hispanic black            :  20
+    Hispanic                      :  20
+    of unspecified race/ethnicity :  10
+
+Independent, HS, Moderate:
+  dem_thermometer:
+    non-Hispanic white            :  40
+    non-Hispanic black            :  20
+    Hispanic                      :  75
+    of unspecified race/ethnicity :  50
+  rep_thermometer:
+    non-Hispanic white            :  45
+    non-Hispanic black            :  20
+    Hispanic                      :  60
+    of unspecified race/ethnicity :  20
+
+Independent, College, Moderate:
+  dem_thermometer:
+    non-Hispanic white            :  65
+    non-Hispanic black            :  60
+    Hispanic                      :  50
+    of unspecified race/ethnicity :  75
+  rep_thermometer:
+    non-Hispanic white            :  30
+    non-Hispanic black            :  10
+    Hispanic                      :   5
+    of unspecified race/ethnicity :  15
+
+Independent, Graduate, Moderate:
+  dem_thermometer:
+    non-Hispanic white            :  75
+    non-Hispanic black            :  70
+    Hispanic                      :  75
+    of unspecified race/ethnicity :  75
+  rep_thermometer:
+    non-Hispanic white            :  10
+    non-Hispanic black            :  15
+    Hispanic                      :   5
+    of unspecified race/ethnicity :  10
+
+
+Race Sensitivity Ranking (by response range):
+--------------------------------------------------------------------------------
+Democrat, Graduate, Liberal              | Range:  90
+Democrat, College, Liberal               | Range:  85
+Republican, College, Conservative        | Range:  85
+Democrat, HS, Liberal                    | Range:  85
+Republican, HS, Conservative             | Range:  80
+Republican, Graduate, Conservative       | Range:  80
+Independent, College, Moderate           | Range:  70
+Independent, Graduate, Moderate          | Range:  70
+Independent, HS, Moderate                | Range:  55
