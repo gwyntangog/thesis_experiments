@@ -30,13 +30,17 @@ def load_llama_model(model_name="mistralai/Mistral-7B-Instruct-v0.1"):
         print(f"[✗] Error loading model: {e}")
         raise
 
-def build_persona_prompt(traits_dict):
-    """Create system prompt from trait dict"""
-    trait_str = ", ".join([f"{k.title()}: {v}" for k, v in traits_dict.items() if v])
-    return f"""You are roleplaying as a person with these characteristics: {trait_str}.
-You hold opinions typical of someone with this background.
-When asked survey questions, respond with ONLY a number between 0 and 100.
-Do not explain your answer, just give the number."""
+def build_persona_prompt(template_dict):
+    """Build persona prompt from template + values"""
+    template = template_dict["template"]
+    values = template_dict["values"]
+
+    # Substitute values into template
+    prompt = template
+    for key, value in values.items():
+        prompt = prompt.replace(f"[{key}]", str(value))
+
+    return prompt
 
 def ask_question_llama(tokenizer, model, persona_prompt, question_text):
     """Query Llama for a single question"""
@@ -101,7 +105,7 @@ def run_ablation_experiment(personas_config, survey_config, ablation_config, num
     for persona in personas_config["personas"]:
         persona_id = persona["id"]
         persona_name = persona["name"]
-        base_traits = persona["traits"]
+        template_dict = persona  # Use the whole persona object
 
         print(f"\n[{persona_name}]")
         print("=" * 80)
