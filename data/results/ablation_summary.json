@@ -1,28 +1,28 @@
 {
   "by_trait": {
     "party": {
-      "mean_effect": 13.766666666666666,
-      "std_effect": 11.627840154846757,
-      "n_tests": 6
+      "mean_effect": 5.888888888888889,
+      "std_effect": 4.969186096084181,
+      "n_tests": 18
     },
     "education": {
-      "mean_effect": 8.6,
-      "std_effect": 6.177378084592201,
-      "n_tests": 6
+      "mean_effect": 4.833333333333333,
+      "std_effect": 4.1052333887941845,
+      "n_tests": 18
     },
     "age": {
-      "mean_effect": 9.0,
-      "std_effect": 8.342661445845684,
-      "n_tests": 6
+      "mean_effect": 7.388888888888889,
+      "std_effect": 4.132210473668156,
+      "n_tests": 18
     },
     "race": {
-      "mean_effect": 13.166666666666666,
-      "std_effect": 16.339114623095913,
-      "n_tests": 6
+      "mean_effect": 8.055555555555555,
+      "std_effect": 6.272931786861259,
+      "n_tests": 18
     }
   },
   "by_persona": {
-    "Republican, HS Education": {
+    "Republican, HS, Conservative": {
       "traits_tested": [
         "party",
         "education",
@@ -30,13 +30,41 @@
         "race"
       ],
       "effects": {
-        "age": 3.5,
+        "age": 8.5,
         "education": 2.5,
-        "party": 15.5,
-        "race": 6.0
+        "party": 11.0,
+        "race": 9.5
       }
     },
-    "Democrat, College Educated": {
+    "Republican, College, Conservative": {
+      "traits_tested": [
+        "party",
+        "education",
+        "age",
+        "race"
+      ],
+      "effects": {
+        "age": 8.5,
+        "education": 4.5,
+        "party": 3.5,
+        "race": 8.0
+      }
+    },
+    "Republican, Graduate, Conservative": {
+      "traits_tested": [
+        "party",
+        "education",
+        "age",
+        "race"
+      ],
+      "effects": {
+        "age": 7.0,
+        "education": 4.0,
+        "party": 7.5,
+        "race": 8.5
+      }
+    },
+    "Democrat, HS, Liberal": {
       "traits_tested": [
         "party",
         "education",
@@ -45,12 +73,12 @@
       ],
       "effects": {
         "age": 5.0,
-        "education": 7.5,
-        "party": 17.8,
-        "race": 1.0
+        "education": 1.5,
+        "party": 5.0,
+        "race": 4.5
       }
     },
-    "Independent, Graduate Degree": {
+    "Democrat, College, Liberal": {
       "traits_tested": [
         "party",
         "education",
@@ -58,30 +86,86 @@
         "race"
       ],
       "effects": {
-        "age": 18.5,
-        "education": 15.8,
+        "age": 3.0,
+        "education": 3.0,
+        "party": 2.0,
+        "race": 11.5
+      }
+    },
+    "Democrat, Graduate, Liberal": {
+      "traits_tested": [
+        "party",
+        "education",
+        "age",
+        "race"
+      ],
+      "effects": {
+        "age": 8.0,
+        "education": 10.0,
+        "party": 4.0,
+        "race": 8.0
+      }
+    },
+    "Independent, HS, Moderate": {
+      "traits_tested": [
+        "party",
+        "education",
+        "age",
+        "race"
+      ],
+      "effects": {
+        "age": 7.5,
+        "education": 7.0,
         "party": 8.0,
-        "race": 32.5
+        "race": 13.0
+      }
+    },
+    "Independent, College, Moderate": {
+      "traits_tested": [
+        "party",
+        "education",
+        "age",
+        "race"
+      ],
+      "effects": {
+        "age": 10.0,
+        "education": 5.0,
+        "party": 4.5,
+        "race": 3.5
+      }
+    },
+    "Independent, Graduate, Moderate": {
+      "traits_tested": [
+        "party",
+        "education",
+        "age",
+        "race"
+      ],
+      "effects": {
+        "age": 9.0,
+        "education": 6.0,
+        "party": 7.5,
+        "race": 6.0
       }
     }
   },
   "by_question": {
     "dem_thermometer": {
-      "mean_effect": 12.883333333333333,
+      "mean_effect": 5.666666666666667,
       "effects_by_trait": {
-        "age": 11.333333333333334,
-        "education": 9.333333333333334,
-        "party": 20.2,
-        "race": 10.666666666666666
+        "age": 6.666666666666667,
+        "education": 3.6666666666666665,
+        "party": 6.666666666666667,
+        "race": 5.666666666666667
       }
     },
     "rep_thermometer": {
-      "mean_effect": 9.383333333333333,
+      "mean_effect": 7.416666666666667,
       "effects_by_trait": {
-        "age": 6.666666666666667,
-        "education": 7.866666666666667,
-        "party": 7.333333333333333,
-        "race": 15.666666666666666
+        "age": 8.11111111111111,
+        "education": 6.0,
+        "party": 5.111111111111111,
+        "race": 10.444444444444445
       }
     }
   }

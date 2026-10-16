@@ -1,0 +1,201 @@
+========================================
+Phase 2: Trait Ablation Experiment
+========================================
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+[Loading Model] mistralai/Mistral-7B-Instruct-v0.1...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:08<00:08,  8.08s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.42s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.82s/it]
+[✓] Model loaded successfully
+
+[Republican, HS, Conservative]
+================================================================================
+  Baseline (Full Persona): 1 The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+2 3 4 5 
+  Ablate 'party': 1 2 3 4 5 
+  Ablate 'education': 1 2 3 4 5 
+  Ablate 'age': 1 2 3 4 5 
+  Ablate 'race': 1 2 3 4 5 
+
+[Republican, College, Conservative]
+================================================================================
+  Baseline (Full Persona): 1 2 3 4 5 
+  Ablate 'party': 1 2 3 4 5 
+  Ablate 'education': 1 2 3 4 5 
+  Ablate 'age': 1 2 3 4 5 
+  Ablate 'race': 1 2 3 4 5 
+
+[Republican, Graduate, Conservative]
+================================================================================
+  Baseline (Full Persona): 1 2 3 4 5 
+  Ablate 'party': 1 2 3 4 5 
+  Ablate 'education': 1 2 3 4 5 
+  Ablate 'age': 1 2 3 4 5 
+  Ablate 'race': 1 2 3 4 5 
+
+[Democrat, HS, Liberal]
+================================================================================
+  Baseline (Full Persona): 1 2 3 4 5 
+  Ablate 'party': 1 2 3 4 5 
+  Ablate 'education': 1 2 3 4 5 
+  Ablate 'age': 1 2 3 4 5 
+  Ablate 'race': 1 2 3 4 5 
+
+[Democrat, College, Liberal]
+================================================================================
+  Baseline (Full Persona): 1 2 3 4 5 
+  Ablate 'party': 1 2 3 4 5 
+  Ablate 'education': 1 2 3 4 5 
+  Ablate 'age': 1 2 3 4 5 
+  Ablate 'race': 1 2 3 4 5 
+
+[Democrat, Graduate, Liberal]
+================================================================================
+  Baseline (Full Persona): 1 2 3 4 5 
+  Ablate 'party': 1 2 3 4 5 
+  Ablate 'education': 1 2 3 4 5 
+  Ablate 'age': 1 2 3 4 5 
+  Ablate 'race': 1 2 3 4 5 
+
+[Independent, HS, Moderate]
+================================================================================
+  Baseline (Full Persona): 1 2 3 4 5 
+  Ablate 'party': 1 2 3 4 5 
+  Ablate 'education': 1 2 3 4 5 
+  Ablate 'age': 1 2 3 4 5 
+  Ablate 'race': 1 2 3 4 5 
+
+[Independent, College, Moderate]
+================================================================================
+  Baseline (Full Persona): 1 2 3 4 5 
+  Ablate 'party': 1 2 3 4 5 
+  Ablate 'education': 1 2 3 4 5 
+  Ablate 'age': 1 2 3 4 5 
+  Ablate 'race': 1 2 3 4 5 
+
+[Independent, Graduate, Moderate]
+================================================================================
+  Baseline (Full Persona): 1 2 3 4 5 
+  Ablate 'party': 1 2 3 4 5 
+  Ablate 'education': 1 2 3 4 5 
+  Ablate 'age': 1 2 3 4 5 
+  Ablate 'race': 1 2 3 4 5 
+
+================================================================================
+[✓] Ablation results saved to: data/results/ablation_results_20261016_150239.json
+[✓] Total ablation tests: 72
+================================================================================
+
+================================================================================
+TRAIT ABLATION ANALYSIS
+================================================================================
+
+Trait Effect Sizes (Average across personas and questions):
+--------------------------------------------------------------------------------
+                   mean       std  min   max  count
+trait_removed                                      
+race           8.055556  6.272932  0.0  22.0     18
+age            7.388889  4.132210  2.0  15.0     18
+party          5.888889  4.969186  0.0  15.0     18
+education      4.833333  4.105233  0.0  13.0     18
+
+
+Effect Sizes by Persona and Trait:
+--------------------------------------------------------------------------------
+
+Republican, HS, Conservative:
+  party                effect:  11.00 ±   1.41
+  race                 effect:   9.50 ±   7.78
+  age                  effect:   8.50 ±   3.54
+  education            effect:   2.50 ±   2.12
+
+Republican, College, Conservative:
+  age                  effect:   8.50 ±   6.36
+  race                 effect:   8.00 ±   2.83
+  education            effect:   4.50 ±   4.95
+  party                effect:   3.50 ±   4.95
+
+Republican, Graduate, Conservative:
+  race                 effect:   8.50 ±   6.36
+  party                effect:   7.50 ±   9.19
+  age                  effect:   7.00 ±   0.00
+  education            effect:   4.00 ±   4.24
+
+Democrat, HS, Liberal:
+  age                  effect:   5.00 ±   1.41
+  party                effect:   5.00 ±   4.24
+  race                 effect:   4.50 ±   3.54
+  education            effect:   1.50 ±   0.71
+
+Democrat, College, Liberal:
+  race                 effect:  11.50 ±  14.85
+  age                  effect:   3.00 ±   1.41
+  education            effect:   3.00 ±   2.83
+  party                effect:   2.00 ±   1.41
+
+Democrat, Graduate, Liberal:
+  education            effect:  10.00 ±   1.41
+  age                  effect:   8.00 ±   8.49
+  race                 effect:   8.00 ±   8.49
+  party                effect:   4.00 ±   2.83
+
+Independent, HS, Moderate:
+  race                 effect:  13.00 ±   4.24
+  party                effect:   8.00 ±   4.24
+  age                  effect:   7.50 ±   3.54
+  education            effect:   7.00 ±   8.49
+
+Independent, College, Moderate:
+  age                  effect:  10.00 ±   1.41
+  education            effect:   5.00 ±   7.07
+  party                effect:   4.50 ±   4.95
+  race                 effect:   3.50 ±   3.54
+
+Independent, Graduate, Moderate:
+  age                  effect:   9.00 ±   8.49
+  party                effect:   7.50 ±  10.61
+  education            effect:   6.00 ±   0.00
+  race                 effect:   6.00 ±   8.49
+
+
+Effect Sizes by Question:
+--------------------------------------------------------------------------------
+
+dem_thermometer:
+  age                  effect:   6.67 ±   4.00
+  party                effect:   6.67 ±   4.97
+  race                 effect:   5.67 ±   4.21
+  education            effect:   3.67 ±   3.87
+
+rep_thermometer:
+  race                 effect:  10.44 ±   7.28
+  age                  effect:   8.11 ±   4.37
+  education            effect:   6.00 ±   4.21
+  party                effect:   5.11 ±   5.13
+
+
+Top 10 Largest Effects (Trait Ablation):
+--------------------------------------------------------------------------------
+Democrat, College, Liberal     | Remove race         | rep_thermometer      | Effect:  22.00 ( 244.4%)
+Independent, HS, Moderate      | Remove race         | rep_thermometer      | Effect:  16.00 (  61.5%)
+Republican, HS, Conservative   | Remove race         | rep_thermometer      | Effect:  15.00 (  20.0%)
+Independent, Graduate, Moderate | Remove party        | dem_thermometer      | Effect:  15.00 (  23.8%)
+Independent, Graduate, Moderate | Remove age          | dem_thermometer      | Effect:  15.00 (  23.8%)
+Republican, Graduate, Conservative | Remove party        | rep_thermometer      | Effect:  14.00 (  17.9%)
+Democrat, Graduate, Liberal    | Remove age          | rep_thermometer      | Effect:  14.00 (  63.6%)
+Democrat, Graduate, Liberal    | Remove race         | rep_thermometer      | Effect:  14.00 (  63.6%)
+Republican, College, Conservative | Remove age          | rep_thermometer      | Effect:  13.00 (  14.9%)
+Republican, Graduate, Conservative | Remove race         | rep_thermometer      | Effect:  13.00 (  16.7%)
+
+
+Key Insights:
+--------------------------------------------------------------------------------
+Most Important Trait: race
+  Average effect when removed: 8.06 points (0-100 scale)
+
+Least Important Trait: education
+  Average effect when removed: 4.83 points
+
+================================================================================
+
+[✓] Summary saved to: data/results/ablation_summary.json
+Phase 2 Complete!
+/var/spool/slurmd/job26094045/slurm_script: line 29: EOF: command not found

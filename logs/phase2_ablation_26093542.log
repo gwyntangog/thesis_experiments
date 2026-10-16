@@ -1,0 +1,68 @@
+========================================
+Phase 2: Trait Ablation Experiment
+========================================
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+[Loading Model] mistralai/Mistral-7B-Instruct-v0.1...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:08<00:08,  8.07s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.49s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.87s/it]
+[✓] Model loaded successfully
+
+[Republican, HS, Conservative]
+================================================================================
+  Baseline (Full Persona): 1 The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+2 3 4 5 
+
+[Republican, College, Conservative]
+================================================================================
+  Baseline (Full Persona): 1 2 3 4 5 
+
+[Republican, Graduate, Conservative]
+================================================================================
+  Baseline (Full Persona): 1 2 3 4 5 
+
+[Democrat, HS, Liberal]
+================================================================================
+  Baseline (Full Persona): 1 2 3 4 5 
+
+[Democrat, College, Liberal]
+================================================================================
+  Baseline (Full Persona): 1 2 3 4 5 
+
+[Democrat, Graduate, Liberal]
+================================================================================
+  Baseline (Full Persona): 1 2 3 4 5 
+
+[Independent, HS, Moderate]
+================================================================================
+  Baseline (Full Persona): 1 2 3 4 5 
+
+[Independent, College, Moderate]
+================================================================================
+  Baseline (Full Persona): 1 2 3 4 5 
+
+[Independent, Graduate, Moderate]
+================================================================================
+  Baseline (Full Persona): 1 2 3 4 5 
+
+================================================================================
+[✓] Ablation results saved to: data/results/ablation_results_20261016_145631.json
+[✓] Total ablation tests: 0
+================================================================================
+
+================================================================================
+TRAIT ABLATION ANALYSIS
+================================================================================
+
+Trait Effect Sizes (Average across personas and questions):
+--------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/orcd/home/002/gwynt/thesis_experiments/scripts/06_analyze_ablation.py", line 135, in <module>
+    df = analyze_ablation_results(args.results_file)
+  File "/orcd/home/002/gwynt/thesis_experiments/scripts/06_analyze_ablation.py", line 28, in analyze_ablation_results
+    trait_effects = df.groupby('trait_removed')['effect_size'].agg(['mean', 'std', 'min', 'max', 'count'])
+  File "/orcd/software/core/001/pkg/miniforge/24.3.0-0/lib/python3.10/site-packages/pandas/core/frame.py", line 9183, in groupby
+    return DataFrameGroupBy(
+  File "/orcd/software/core/001/pkg/miniforge/24.3.0-0/lib/python3.10/site-packages/pandas/core/groupby/groupby.py", line 1329, in __init__
+    grouper, exclusions, obj = get_grouper(
+  File "/orcd/software/core/001/pkg/miniforge/24.3.0-0/lib/python3.10/site-packages/pandas/core/groupby/grouper.py", line 1043, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'trait_removed'
