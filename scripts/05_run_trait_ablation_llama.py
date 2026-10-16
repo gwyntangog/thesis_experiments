@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Trait Ablation Experiment with Llama
+Trait Ablation Experiment with Mistral
 Remove traits one-at-a-time and measure response changes
 """
 
@@ -13,7 +13,7 @@ from datetime import datetime
 from copy import deepcopy
 
 def load_llama_model(model_name="mistralai/Mistral-7B-Instruct-v0.1"):
-    """Load Llama from HuggingFace"""
+    """Load Mistral from HuggingFace"""
     print(f"[Loading Model] {model_name}...")
 
     try:
@@ -30,10 +30,10 @@ def load_llama_model(model_name="mistralai/Mistral-7B-Instruct-v0.1"):
         print(f"[✗] Error loading model: {e}")
         raise
 
-def build_persona_prompt(template_dict):
+def build_persona_prompt(persona_dict):
     """Build persona prompt from template + values"""
-    template = template_dict["template"]
-    values = template_dict["values"]
+    template = persona_dict["template"]
+    values = persona_dict["values"]
 
     # Substitute values into template
     prompt = template
@@ -43,7 +43,7 @@ def build_persona_prompt(template_dict):
     return prompt
 
 def ask_question_llama(tokenizer, model, persona_prompt, question_text):
-    """Query Llama for a single question"""
+    """Query Mistral for a single question"""
 
     prompt = f"""{persona_prompt}
 
@@ -80,18 +80,27 @@ Your answer (0-100):"""
         print(f"[Error] Query failed: {e}")
         return 50
 
-def create_ablated_persona(traits_dict, trait_to_remove, ablation_config):
-    """Remove one trait from persona"""
-    ablated = deepcopy(traits_dict)
+def create_ablated_persona(persona_dict, trait_to_remove):
+    """Remove one trait from persona by replacing with neutral value"""
+    ablated = deepcopy(persona_dict)
 
-    if trait_to_remove in ablated:
-        # Option: remove or replace with neutral
-        if ablation_config.get("replacement_text") == "unspecified":
-            # Remove the trait entirely
-            ablated[trait_to_remove] = None
-        else:
-            # Replace with neutral text
-            ablated[trait_to_remove] = ablation_config.get("replacement_text", "unspecified")
+    # Neutral replacement values for each trait
+    neutral_values = {
+        "PID": "someone",
+        "EDUCATION": "with some education",
+        "AGE": "middle-aged",
+        "RACETH": "of unspecified race/ethnicity",
+        "INCOME": "making a moderate income",
+        "IDEO": "of moderate political ideology",
+        "MARST": "of unspecified marital status",
+        "GENDER": "",
+        "REGIS": "registered",
+        "INTEREST": "regularly"
+    }
+
+    # Replace the trait with neutral value in the values dict
+    if trait_to_remove in ablated["values"]:
+        ablated["values"][trait_to_remove] = neutral_values.get(trait_to_remove, "unspecified")
 
     return ablated
 
@@ -99,22 +108,20 @@ def run_ablation_experiment(personas_config, survey_config, ablation_config, num
     """Run trait ablation experiment"""
 
     tokenizer, model = load_llama_model()
-
     results = []
 
     for persona in personas_config["personas"]:
         persona_id = persona["id"]
         persona_name = persona["name"]
-        template_dict = persona  # Use the whole persona object
 
         print(f"\n[{persona_name}]")
         print("=" * 80)
 
         # Get baseline (full persona)
-        baseline_prompt = build_persona_prompt(template_dict)
-        baseline_responses = {"full": {}}
+        baseline_prompt = build_persona_prompt(persona)
+        baseline_responses = {}
 
-        print(f"  Baseline (Full Persona): ", end="")
+        print(f"  Baseline (Full Persona): ", end="", flush=True)
         for run in range(num_runs):
             print(f"{run+1}", end=" ", flush=True)
 
@@ -127,25 +134,22 @@ def run_ablation_experiment(personas_config, survey_config, ablation_config, num
                 )
 
                 q_id = question["q_id"]
-                if q_id not in baseline_responses["full"]:
-                    baseline_responses["full"][q_id] = []
-                baseline_responses["full"][q_id].append(answer)
+                if q_id not in baseline_responses:
+                    baseline_responses[q_id] = []
+                baseline_responses[q_id].append(answer)
 
         print()
 
         # Ablate each trait
-        traits_to_ablate = ablation_config.get("traits_to_ablate", list(template_dict.keys()))
+        traits_to_ablate = ablation_config.get("traits_to_ablate", ["PID", "EDUCATION", "AGE", "RACETH"])
 
         for trait_to_remove in traits_to_ablate:
-            if trait_to_remove not in template_dict:
-                continue
-
-            ablated_traits = create_ablated_persona(template_dict, trait_to_remove, ablation_config)
-            ablated_prompt = build_persona_prompt(ablated_traits)
-
+            # Create ablated persona
+            ablated_persona = create_ablated_persona(persona, trait_to_remove)
+            ablated_prompt = build_persona_prompt(ablated_persona)
             ablated_responses = {}
 
-            print(f"  Ablate '{trait_to_remove}': ", end="")
+            print(f"  Ablate '{trait_to_remove}': ", end="", flush=True)
             for run in range(num_runs):
                 print(f"{run+1}", end=" ", flush=True)
 
@@ -168,7 +172,7 @@ def run_ablation_experiment(personas_config, survey_config, ablation_config, num
             for question in survey_config["questions"]:
                 q_id = question["q_id"]
 
-                baseline_mean = sum(baseline_responses["full"][q_id]) / len(baseline_responses["full"][q_id])
+                baseline_mean = sum(baseline_responses[q_id]) / len(baseline_responses[q_id])
                 ablated_mean = sum(ablated_responses[q_id]) / len(ablated_responses[q_id])
 
                 effect_size = abs(ablated_mean - baseline_mean)
@@ -182,7 +186,7 @@ def run_ablation_experiment(personas_config, survey_config, ablation_config, num
                     "ablated_mean": float(ablated_mean),
                     "effect_size": float(effect_size),
                     "percent_change": float((effect_size / baseline_mean * 100) if baseline_mean != 0 else 0),
-                    "baseline_responses": baseline_responses["full"][q_id],
+                    "baseline_responses": baseline_responses[q_id],
                     "ablated_responses": ablated_responses[q_id],
                     "timestamp": datetime.now().isoformat()
                 })
@@ -203,7 +207,7 @@ def run_ablation_experiment(personas_config, survey_config, ablation_config, num
     return results
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Run trait ablation experiment with Llama")
+    parser = argparse.ArgumentParser(description="Run trait ablation experiment with Mistral")
     parser.add_argument("--num_runs", type=int, default=5, help="Number of runs per ablation")
     parser.add_argument("--output_dir", default="data/results", help="Output directory")
     args = parser.parse_args()
