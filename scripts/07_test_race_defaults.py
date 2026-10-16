@@ -24,13 +24,14 @@ def ask_question(tokenizer, model, prompt, question):
     return max(0, min(100, numbers[0])) if numbers else 50
 
 # Load model
+print("Loading model...")
 tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1")
 model = AutoModelForCausalLM.from_pretrained(
     "mistralai/Mistral-7B-Instruct-v0.1",
     torch_dtype=torch.float16,
-    device_map="auto",
-    load_in_8bit=True,
+    device_map="auto"
 )
+print("Model loaded!")
 
 # Test template
 base_template = "It is 2024. You are a 45 year-old, married, [RACE] male with a college degree making $70k per year, living in the United States. You are a moderate, registered Democrat who regularly pays attention to what's going on in government and politics."
@@ -41,7 +42,7 @@ questions = [
     "How do you feel toward the Republican Party? (0-100)"
 ]
 
-print("Testing if race specification changes responses:\n")
+print("\nTesting if race specification changes responses:\n")
 
 for question in questions:
     print(f"Q: {question}")
