@@ -1,0 +1,470 @@
+{
+  "analysis_type": "race_delta_from_unspecified",
+  "deltas": [
+    {
+      "persona": "Democrat, College, Liberal",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 95,
+      "race_response": 80,
+      "delta": -15
+    },
+    {
+      "persona": "Democrat, College, Liberal",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 95,
+      "race_response": 85,
+      "delta": -10
+    },
+    {
+      "persona": "Democrat, College, Liberal",
+      "question": "dem_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 95,
+      "race_response": 85,
+      "delta": -10
+    },
+    {
+      "persona": "Democrat, College, Liberal",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 10,
+      "race_response": 10,
+      "delta": 0
+    },
+    {
+      "persona": "Democrat, College, Liberal",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 10,
+      "race_response": 10,
+      "delta": 0
+    },
+    {
+      "persona": "Democrat, College, Liberal",
+      "question": "rep_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 10,
+      "race_response": 50,
+      "delta": 40
+    },
+    {
+      "persona": "Democrat, Graduate, Liberal",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 95,
+      "race_response": 85,
+      "delta": -10
+    },
+    {
+      "persona": "Democrat, Graduate, Liberal",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 95,
+      "race_response": 85,
+      "delta": -10
+    },
+    {
+      "persona": "Democrat, Graduate, Liberal",
+      "question": "dem_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 95,
+      "race_response": 85,
+      "delta": -10
+    },
+    {
+      "persona": "Democrat, Graduate, Liberal",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 10,
+      "race_response": 5,
+      "delta": -5
+    },
+    {
+      "persona": "Democrat, Graduate, Liberal",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 10,
+      "race_response": 20,
+      "delta": 10
+    },
+    {
+      "persona": "Democrat, Graduate, Liberal",
+      "question": "rep_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 10,
+      "race_response": 20,
+      "delta": 10
+    },
+    {
+      "persona": "Democrat, HS, Liberal",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 80,
+      "race_response": 80,
+      "delta": 0
+    },
+    {
+      "persona": "Democrat, HS, Liberal",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 80,
+      "race_response": 90,
+      "delta": 10
+    },
+    {
+      "persona": "Democrat, HS, Liberal",
+      "question": "dem_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 80,
+      "race_response": 90,
+      "delta": 10
+    },
+    {
+      "persona": "Democrat, HS, Liberal",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 10,
+      "race_response": 10,
+      "delta": 0
+    },
+    {
+      "persona": "Democrat, HS, Liberal",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 10,
+      "race_response": 10,
+      "delta": 0
+    },
+    {
+      "persona": "Democrat, HS, Liberal",
+      "question": "rep_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 10,
+      "race_response": 5,
+      "delta": -5
+    },
+    {
+      "persona": "Independent, College, Moderate",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 75,
+      "race_response": 65,
+      "delta": -10
+    },
+    {
+      "persona": "Independent, College, Moderate",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 75,
+      "race_response": 60,
+      "delta": -15
+    },
+    {
+      "persona": "Independent, College, Moderate",
+      "question": "dem_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 75,
+      "race_response": 50,
+      "delta": -25
+    },
+    {
+      "persona": "Independent, College, Moderate",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 15,
+      "race_response": 30,
+      "delta": 15
+    },
+    {
+      "persona": "Independent, College, Moderate",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 15,
+      "race_response": 10,
+      "delta": -5
+    },
+    {
+      "persona": "Independent, College, Moderate",
+      "question": "rep_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 15,
+      "race_response": 5,
+      "delta": -10
+    },
+    {
+      "persona": "Independent, Graduate, Moderate",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 75,
+      "race_response": 75,
+      "delta": 0
+    },
+    {
+      "persona": "Independent, Graduate, Moderate",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 75,
+      "race_response": 70,
+      "delta": -5
+    },
+    {
+      "persona": "Independent, Graduate, Moderate",
+      "question": "dem_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 75,
+      "race_response": 75,
+      "delta": 0
+    },
+    {
+      "persona": "Independent, Graduate, Moderate",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 10,
+      "race_response": 10,
+      "delta": 0
+    },
+    {
+      "persona": "Independent, Graduate, Moderate",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 10,
+      "race_response": 15,
+      "delta": 5
+    },
+    {
+      "persona": "Independent, Graduate, Moderate",
+      "question": "rep_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 10,
+      "race_response": 5,
+      "delta": -5
+    },
+    {
+      "persona": "Independent, HS, Moderate",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 50,
+      "race_response": 40,
+      "delta": -10
+    },
+    {
+      "persona": "Independent, HS, Moderate",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 50,
+      "race_response": 20,
+      "delta": -30
+    },
+    {
+      "persona": "Independent, HS, Moderate",
+      "question": "dem_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 50,
+      "race_response": 75,
+      "delta": 25
+    },
+    {
+      "persona": "Independent, HS, Moderate",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 20,
+      "race_response": 45,
+      "delta": 25
+    },
+    {
+      "persona": "Independent, HS, Moderate",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 20,
+      "race_response": 20,
+      "delta": 0
+    },
+    {
+      "persona": "Independent, HS, Moderate",
+      "question": "rep_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 20,
+      "race_response": 60,
+      "delta": 40
+    },
+    {
+      "persona": "Republican, College, Conservative",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 20,
+      "race_response": 20,
+      "delta": 0
+    },
+    {
+      "persona": "Republican, College, Conservative",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 20,
+      "race_response": 10,
+      "delta": -10
+    },
+    {
+      "persona": "Republican, College, Conservative",
+      "question": "dem_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 20,
+      "race_response": 20,
+      "delta": 0
+    },
+    {
+      "persona": "Republican, College, Conservative",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 95,
+      "race_response": 90,
+      "delta": -5
+    },
+    {
+      "persona": "Republican, College, Conservative",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 95,
+      "race_response": 95,
+      "delta": 0
+    },
+    {
+      "persona": "Republican, College, Conservative",
+      "question": "rep_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 95,
+      "race_response": 80,
+      "delta": -15
+    },
+    {
+      "persona": "Republican, Graduate, Conservative",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 10,
+      "race_response": 10,
+      "delta": 0
+    },
+    {
+      "persona": "Republican, Graduate, Conservative",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 10,
+      "race_response": 10,
+      "delta": 0
+    },
+    {
+      "persona": "Republican, Graduate, Conservative",
+      "question": "dem_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 10,
+      "race_response": 10,
+      "delta": 0
+    },
+    {
+      "persona": "Republican, Graduate, Conservative",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 50,
+      "race_response": 90,
+      "delta": 40
+    },
+    {
+      "persona": "Republican, Graduate, Conservative",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 50,
+      "race_response": 80,
+      "delta": 30
+    },
+    {
+      "persona": "Republican, Graduate, Conservative",
+      "question": "rep_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 50,
+      "race_response": 90,
+      "delta": 40
+    },
+    {
+      "persona": "Republican, HS, Conservative",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 10,
+      "race_response": 10,
+      "delta": 0
+    },
+    {
+      "persona": "Republican, HS, Conservative",
+      "question": "dem_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 10,
+      "race_response": 10,
+      "delta": 0
+    },
+    {
+      "persona": "Republican, HS, Conservative",
+      "question": "dem_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 10,
+      "race_response": 10,
+      "delta": 0
+    },
+    {
+      "persona": "Republican, HS, Conservative",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic white",
+      "unspecified_response": 90,
+      "race_response": 70,
+      "delta": -20
+    },
+    {
+      "persona": "Republican, HS, Conservative",
+      "question": "rep_thermometer",
+      "race": "non-Hispanic black",
+      "unspecified_response": 90,
+      "race_response": 75,
+      "delta": -15
+    },
+    {
+      "persona": "Republican, HS, Conservative",
+      "question": "rep_thermometer",
+      "race": "Hispanic",
+      "unspecified_response": 90,
+      "race_response": 80,
+      "delta": -10
+    }
+  ],
+  "race_averages": {
+    "mean": {
+      "Hispanic": 4.166666666666667,
+      "non-Hispanic white": 0.2777777777777778,
+      "non-Hispanic black": -2.5
+    },
+    "std": {
+      "Hispanic": 19.722337291388513,
+      "non-Hispanic white": 14.191155304938668,
+      "non-Hispanic black": 12.631659571466125
+    },
+    "min": {
+      "Hispanic": -25.0,
+      "non-Hispanic white": -20.0,
+      "non-Hispanic black": -30.0
+    },
+    "max": {
+      "Hispanic": 40.0,
+      "non-Hispanic white": 40.0,
+      "non-Hispanic black": 30.0
+    }
+  },
+  "persona_sensitivity": {
+    "Independent, HS, Moderate": 21.666666666666668,
+    "Republican, Graduate, Conservative": 18.333333333333332,
+    "Independent, College, Moderate": 13.333333333333334,
+    "Democrat, College, Liberal": 12.5,
+    "Democrat, Graduate, Liberal": 9.166666666666666,
+    "Republican, HS, Conservative": 7.5,
+    "Republican, College, Conservative": 5.0,
+    "Democrat, HS, Liberal": 4.166666666666667,
+    "Independent, Graduate, Moderate": 2.5
+  }
+}
