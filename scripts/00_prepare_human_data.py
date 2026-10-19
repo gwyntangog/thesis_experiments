@@ -1,103 +1,57 @@
+#!/usr/bin/env python3
+"""Prepare human ANES reference distributions"""
+
 import pandas as pd
 import json
-import numpy as np
+import os
 
-def prepare_anes_data(anes_file):
-    """
-    Load raw ANES CDF and prepare human reference distributions
-    """
-    # Load ANES cumulative file
-    df = pd.read_csv(anes_file)
+def prepare_human_distributions(anes_csv="data/human_survey/anes_cdf_2024.csv",
+                               output_dir="data/human_survey"):
+    """Extract distributions for our survey questions"""
 
-    # Variables available (adjust based on actual ANES file):
-    # - VCF0218: Feeling Thermometer - Democratic Party (0-100)
-    # - VCF0224: Feeling Thermometer - Republican Party (0-100)
-    # - VCF0303: Party ID (1=Dem, 2=Rep, 3=Ind)
-    # - VCF0110: Education (1=<HS, 2=HS, 3=Some College, 4=College, 5=Post-grad)
-    # - VCF0105a: Age
-    # - VCF0106: Race (1=White, 2=Black, 3=Asian, etc.)
+    print("[Loading ANES data...]")
+    df = pd.read_csv(anes_csv, low_memory=False)
 
-    # Rename for clarity
-    df_clean = df.rename(columns={
-        'VCF0218': 'dem_thermometer',
-        'VCF0224': 'rep_thermometer',
-        'VCF0303': 'party_id',
-        'VCF0110': 'education',
-        'VCF0105a': 'age',
-        'VCF0106': 'race'
-    })
+    print(f"[✓] Loaded {len(df)} respondents")
 
-    print(df_clean["dem_thermometer"].unique())
-
-    # Remove missing values (typically coded as 98, 99)
-    # df_clean['dem_thermometer'] = df_clean['dem_thermometer'].astype(float)
-    df_clean['dem_thermometer'] = df_clean['dem_thermometer'].astype(str).str.strip()
-    df_clean['dem_thermometer'] = pd.to_numeric(df_clean['dem_thermometer'], errors='coerce').fillna(0).astype(int)
-
-    print(df_clean["dem_thermometer"].unique())
-
-    df_clean = df_clean[(df_clean['dem_thermometer'] >= 0) &
-                        (df_clean['dem_thermometer'] <= 100)]
-
-    # Create demographic groups
-    personas_config = {
-        'persona_001': {
-            'name': 'Republican, HS Education',
-            'filter': (df_clean['party_id'] == 2) & (df_clean['education'] == 2),
-            'traits': {'party': 'Republican', 'education': 'high school'}
-        },
-        'persona_002': {
-            'name': 'Democrat, College Educated',
-            'filter': (df_clean['party_id'] == 1) & (df_clean['education'] == 4),
-            'traits': {'party': 'Democrat', 'education': 'college'}
-        },
-        'persona_003': {
-            'name': 'Independent, Graduate Degree',
-            'filter': (df_clean['party_id'] == 3) & (df_clean['education'] == 5),
-            'traits': {'party': 'Independent', 'education': 'graduate'}
-        },
+    # ANES 2024 column names
+    column_mapping = {
+        "dem_thermometer": "V241166",      # Democratic Party feeling thermometer
+        "rep_thermometer": "V241167",      # Republican Party feeling thermometer
     }
 
-    human_distributions = {}
+    distributions = {}
 
-    for p_id, p_info in personas_config.items():
-        subset = df_clean[p_info['filter']]
+    for q_id, col_name in column_mapping.items():
+        if col_name not in df.columns:
+            print(f"[✗] Error: Column {col_name} not found for {q_id}")
+            exit(1)
 
-        human_distributions[p_id] = {
-            'persona_name': p_info['name'],
-            'n_respondents': len(subset),
-            'dem_thermometer': {
-                'mean': float(subset['dem_thermometer'].mean()),
-                'std': float(subset['dem_thermometer'].std()),
-                'median': float(subset['dem_thermometer'].median()),
-                'q25': float(subset['dem_thermometer'].quantile(0.25)),
-                'q75': float(subset['dem_thermometer'].quantile(0.75)),
-                'min': float(subset['dem_thermometer'].min()),
-                'max': float(subset['dem_thermometer'].max()),
-                'all_responses': subset['dem_thermometer'].tolist()  # Keep full dist!
-            },
-            'rep_thermometer': {
-                'mean': float(subset['rep_thermometer'].mean()),
-                'std': float(subset['rep_thermometer'].std()),
-                'median': float(subset['rep_thermometer'].median()),
-                'q25': float(subset['rep_thermometer'].quantile(0.25)),
-                'q75': float(subset['rep_thermometer'].quantile(0.75)),
-                'min': float(subset['rep_thermometer'].min()),
-                'max': float(subset['rep_thermometer'].max()),
-                'all_responses': subset['rep_thermometer'].tolist()
-            }
-        }
+        # Get responses (handle missing values)
+        responses = df[col_name].dropna()
 
-    # Save
-    with open('data/human_survey/anes_distributions.json', 'w') as f:
-        json.dump(human_distributions, f, indent=2)
+        # Filter to 0-100 range
+        responses = responses[(responses >= 0) & (responses <= 100)]
 
-    print("Human reference distributions saved!")
-    print("\nSample distribution (persona_001):")
-    print(json.dumps(human_distributions['persona_001'], indent=2, default=str))
+        print(f"\n{q_id} ({col_name}):")
+        print(f"  Valid responses: {len(responses)}")
+        print(f"  Mean: {responses.mean():.1f}")
+        print(f"  Std: {responses.std():.1f}")
+        print(f"  Range: [{responses.min():.0f}, {responses.max():.0f}]")
 
-    return human_distributions
+        # Store as list
+        distributions[q_id] = responses.tolist()
+
+    # Save distributions
+    os.makedirs(output_dir, exist_ok=True)
+    output_file = os.path.join(output_dir, "anes_distributions.json")
+
+    with open(output_file, 'w') as f:
+        json.dump(distributions, f, indent=2)
+
+    print(f"\n[✓] Human distributions saved to: {output_file}")
+
+    return distributions
 
 if __name__ == "__main__":
-    # Download from: https://electionstudies.org/data-center/anes-time-series-cumulative-data-file/
-    prepare_anes_data('data/human_survey/anes_cdf_2024.csv')
+    prepare_human_distributions()
