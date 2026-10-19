@@ -131,14 +131,14 @@ def visualize_race_sensitivity(results_file, output_dir="data/results"):
     print(f"[✓] Saved to: {output_file4}")
     plt.close()
 
-    # ===== PLOT 5: Faceted by Persona & Question =====
+ # ===== PLOT 5: Faceted by Persona & Question =====
     print("[Creating plot 5: Faceted grid...]")
 
     personas = sorted(deltas['persona'].unique())
     questions = sorted(deltas['question'].unique())
 
     fig, axes = plt.subplots(len(personas), len(questions),
-                            figsize=(14, 18), sharex=True, sharey=True)
+                            figsize=(14, 20), sharex=True, sharey=True)
 
     if len(personas) == 1:
         axes = axes.reshape(1, -1)
@@ -149,7 +149,7 @@ def visualize_race_sensitivity(results_file, output_dir="data/results"):
 
             # Get data for this persona × question
             mask = (deltas['persona'] == persona) & (deltas['question'] == question)
-            data_subset = deltas[mask].sort_values('race')  # Sort by race name for consistency
+            data_subset = deltas[mask].sort_values('race')
 
             colors_bar = ['red' if x < 0 else 'green' for x in data_subset['delta']]
             bars = ax.barh(range(len(data_subset)), data_subset['delta'].values, color=colors_bar, alpha=0.7)
@@ -158,11 +158,26 @@ def visualize_race_sensitivity(results_file, output_dir="data/results"):
             ax.set_yticks(range(len(data_subset)))
             ax.set_yticklabels(data_subset['race'].values, fontsize=8)
 
-            # Labels and formatting
+            # Add persona details box in top left
             if j == 0:
-                ax.set_ylabel(persona.split(',')[0].strip(), fontsize=10, fontweight='bold')
+                # Parse persona details
+                parts = persona.split(',')
+                party = parts[0].strip()
+                education = parts[1].strip() if len(parts) > 1 else ""
+                ideology = parts[2].strip() if len(parts) > 2 else ""
+
+                # Format details for display
+                details_text = f"{party}\n{education}\n{ideology}"
+                ax.text(-0.98, 0.98, details_text,
+                       transform=ax.transAxes,
+                       fontsize=9, fontweight='bold',
+                       verticalalignment='top', horizontalalignment='right',
+                       bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
+
+            # Question label on top
             if i == 0:
-                ax.set_title(question.replace('_', ' ').title(), fontsize=11, fontweight='bold')
+                q_label = question.replace('_', ' ').title()
+                ax.set_title(q_label, fontsize=11, fontweight='bold', pad=10)
 
             ax.axvline(x=0, color='black', linestyle='-', linewidth=1.0)
             ax.grid(axis='x', alpha=0.3)
@@ -174,15 +189,21 @@ def visualize_race_sensitivity(results_file, output_dir="data/results"):
                 ax.text(x_pos, idx, f'{delta:.0f}', va='center',
                        ha='left' if delta > 0 else 'right', fontsize=9, fontweight='bold')
 
-    plt.suptitle('Race Sensitivity: Delta from Unspecified\n(Rows=Personas, Columns=Questions)\nGreen=Positive Delta | Red=Negative Delta',
+    # Add legend
+    from matplotlib.patches import Patch
+    legend_elements = [
+        Patch(facecolor='green', alpha=0.7, label='Positive delta (race increases response)'),
+        Patch(facecolor='red', alpha=0.7, label='Negative delta (race decreases response)')
+    ]
+    fig.legend(handles=legend_elements, loc='lower center', ncol=2, fontsize=11, bbox_to_anchor=(0.5, -0.01))
+
+    plt.suptitle('Race Sensitivity by Persona\n(Each row = Persona details | Each column = Question type)',
                 fontsize=16, fontweight='bold', y=0.995)
-    plt.tight_layout()
+    plt.tight_layout(rect=[0, 0.02, 1, 0.99])
     output_file5 = f"{output_dir}/race_sensitivity_faceted.png"
     plt.savefig(output_file5, dpi=300, bbox_inches='tight')
     print(f"[✓] Saved to: {output_file5}")
     plt.close()
-
-    print(f"\n[✓] All visualizations complete!")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
