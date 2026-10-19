@@ -1,0 +1,1442 @@
+[
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "run": 0,
+    "timestamp": "2026-10-18T23:13:03.009291"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 90,
+    "run": 0,
+    "timestamp": "2026-10-18T23:13:06.446151"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "run": 1,
+    "timestamp": "2026-10-18T23:13:10.327537"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 90,
+    "run": 1,
+    "timestamp": "2026-10-18T23:13:13.756065"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "run": 2,
+    "timestamp": "2026-10-18T23:13:17.599627"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 90,
+    "run": 2,
+    "timestamp": "2026-10-18T23:13:20.993827"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "run": 3,
+    "timestamp": "2026-10-18T23:13:24.842948"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 50,
+    "run": 3,
+    "timestamp": "2026-10-18T23:13:28.592854"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "run": 4,
+    "timestamp": "2026-10-18T23:13:32.473208"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 95,
+    "run": 4,
+    "timestamp": "2026-10-18T23:13:38.042375"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "run": 5,
+    "timestamp": "2026-10-18T23:13:41.948499"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 95,
+    "run": 5,
+    "timestamp": "2026-10-18T23:13:45.376739"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "run": 6,
+    "timestamp": "2026-10-18T23:13:49.260417"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 80,
+    "run": 6,
+    "timestamp": "2026-10-18T23:13:52.688558"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "run": 7,
+    "timestamp": "2026-10-18T23:13:56.578746"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 90,
+    "run": 7,
+    "timestamp": "2026-10-18T23:14:00.004751"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 20,
+    "run": 8,
+    "timestamp": "2026-10-18T23:14:03.898055"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 70,
+    "run": 8,
+    "timestamp": "2026-10-18T23:14:07.326462"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 0,
+    "run": 9,
+    "timestamp": "2026-10-18T23:14:10.842705"
+  },
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 90,
+    "run": 9,
+    "timestamp": "2026-10-18T23:14:14.247449"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "run": 0,
+    "timestamp": "2026-10-18T23:14:20.247910"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 95,
+    "run": 0,
+    "timestamp": "2026-10-18T23:14:23.660303"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 20,
+    "run": 1,
+    "timestamp": "2026-10-18T23:14:27.540456"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 95,
+    "run": 1,
+    "timestamp": "2026-10-18T23:14:30.961110"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "run": 2,
+    "timestamp": "2026-10-18T23:14:34.842193"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 80,
+    "run": 2,
+    "timestamp": "2026-10-18T23:14:38.266466"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 15,
+    "run": 3,
+    "timestamp": "2026-10-18T23:14:42.151337"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 95,
+    "run": 3,
+    "timestamp": "2026-10-18T23:14:47.717763"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 15,
+    "run": 4,
+    "timestamp": "2026-10-18T23:14:51.602382"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 85,
+    "run": 4,
+    "timestamp": "2026-10-18T23:14:55.032044"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 20,
+    "run": 5,
+    "timestamp": "2026-10-18T23:14:58.913420"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 50,
+    "run": 5,
+    "timestamp": "2026-10-18T23:15:02.690444"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 30,
+    "run": 6,
+    "timestamp": "2026-10-18T23:15:08.768427"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 85,
+    "run": 6,
+    "timestamp": "2026-10-18T23:15:12.167554"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 20,
+    "run": 7,
+    "timestamp": "2026-10-18T23:15:16.009272"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 85,
+    "run": 7,
+    "timestamp": "2026-10-18T23:15:19.402768"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 20,
+    "run": 8,
+    "timestamp": "2026-10-18T23:15:23.261468"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 85,
+    "run": 8,
+    "timestamp": "2026-10-18T23:15:26.662451"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 30,
+    "run": 9,
+    "timestamp": "2026-10-18T23:15:30.540291"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 85,
+    "run": 9,
+    "timestamp": "2026-10-18T23:15:33.974685"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "run": 0,
+    "timestamp": "2026-10-18T23:15:37.803456"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 50,
+    "run": 0,
+    "timestamp": "2026-10-18T23:15:43.340228"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 0,
+    "run": 1,
+    "timestamp": "2026-10-18T23:15:46.808309"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 90,
+    "run": 1,
+    "timestamp": "2026-10-18T23:15:50.189561"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 5,
+    "run": 2,
+    "timestamp": "2026-10-18T23:15:53.697021"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 90,
+    "run": 2,
+    "timestamp": "2026-10-18T23:15:59.224783"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 25,
+    "run": 3,
+    "timestamp": "2026-10-18T23:16:03.096424"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 50,
+    "run": 3,
+    "timestamp": "2026-10-18T23:16:08.615304"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 5,
+    "run": 4,
+    "timestamp": "2026-10-18T23:16:12.087174"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 85,
+    "run": 4,
+    "timestamp": "2026-10-18T23:16:15.438820"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 5,
+    "run": 5,
+    "timestamp": "2026-10-18T23:16:18.894229"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 50,
+    "run": 5,
+    "timestamp": "2026-10-18T23:16:24.359361"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "run": 6,
+    "timestamp": "2026-10-18T23:16:28.176836"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 95,
+    "run": 6,
+    "timestamp": "2026-10-18T23:16:31.554770"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "run": 7,
+    "timestamp": "2026-10-18T23:16:37.606738"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 90,
+    "run": 7,
+    "timestamp": "2026-10-18T23:16:40.986187"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "run": 8,
+    "timestamp": "2026-10-18T23:16:44.820114"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 50,
+    "run": 8,
+    "timestamp": "2026-10-18T23:16:48.559828"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "run": 9,
+    "timestamp": "2026-10-18T23:16:52.403636"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "rep_thermometer",
+    "response": 85,
+    "run": 9,
+    "timestamp": "2026-10-18T23:16:55.784120"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 50,
+    "run": 0,
+    "timestamp": "2026-10-18T23:17:00.043609"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 0,
+    "timestamp": "2026-10-18T23:17:03.477380"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 80,
+    "run": 1,
+    "timestamp": "2026-10-18T23:17:09.524172"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 0,
+    "run": 1,
+    "timestamp": "2026-10-18T23:17:12.585028"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 85,
+    "run": 2,
+    "timestamp": "2026-10-18T23:17:16.440365"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 2,
+    "timestamp": "2026-10-18T23:17:19.846032"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 75,
+    "run": 3,
+    "timestamp": "2026-10-18T23:17:23.725794"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 3,
+    "timestamp": "2026-10-18T23:17:27.125245"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 75,
+    "run": 4,
+    "timestamp": "2026-10-18T23:17:31.007475"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 0,
+    "run": 4,
+    "timestamp": "2026-10-18T23:17:34.070037"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 50,
+    "run": 5,
+    "timestamp": "2026-10-18T23:17:40.143579"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 5,
+    "timestamp": "2026-10-18T23:17:45.720113"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 75,
+    "run": 6,
+    "timestamp": "2026-10-18T23:17:49.615262"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 0,
+    "run": 6,
+    "timestamp": "2026-10-18T23:17:52.689076"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 85,
+    "run": 7,
+    "timestamp": "2026-10-18T23:17:56.601726"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 7,
+    "timestamp": "2026-10-18T23:18:00.033079"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 85,
+    "run": 8,
+    "timestamp": "2026-10-18T23:18:03.941377"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 8,
+    "timestamp": "2026-10-18T23:18:07.375139"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 75,
+    "run": 9,
+    "timestamp": "2026-10-18T23:18:11.261662"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 9,
+    "timestamp": "2026-10-18T23:18:14.672650"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 80,
+    "run": 0,
+    "timestamp": "2026-10-18T23:18:18.535437"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 0,
+    "timestamp": "2026-10-18T23:18:21.933733"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 50,
+    "run": 1,
+    "timestamp": "2026-10-18T23:18:26.156901"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 5,
+    "run": 1,
+    "timestamp": "2026-10-18T23:18:29.207833"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 90,
+    "run": 2,
+    "timestamp": "2026-10-18T23:18:33.094661"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 2,
+    "timestamp": "2026-10-18T23:18:36.519801"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 85,
+    "run": 3,
+    "timestamp": "2026-10-18T23:18:40.420898"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 3,
+    "timestamp": "2026-10-18T23:18:43.847803"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 95,
+    "run": 4,
+    "timestamp": "2026-10-18T23:18:47.757404"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 5,
+    "run": 4,
+    "timestamp": "2026-10-18T23:18:50.826433"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 85,
+    "run": 5,
+    "timestamp": "2026-10-18T23:18:54.721345"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 5,
+    "timestamp": "2026-10-18T23:18:58.154648"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 95,
+    "run": 6,
+    "timestamp": "2026-10-18T23:19:02.052847"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 6,
+    "timestamp": "2026-10-18T23:19:05.484512"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 80,
+    "run": 7,
+    "timestamp": "2026-10-18T23:19:09.374391"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 7,
+    "timestamp": "2026-10-18T23:19:12.806419"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 75,
+    "run": 8,
+    "timestamp": "2026-10-18T23:19:16.662425"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 50,
+    "run": 8,
+    "timestamp": "2026-10-18T23:19:22.189970"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 80,
+    "run": 9,
+    "timestamp": "2026-10-18T23:19:26.027750"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 9,
+    "timestamp": "2026-10-18T23:19:29.434407"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 85,
+    "run": 0,
+    "timestamp": "2026-10-18T23:19:33.244514"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 0,
+    "timestamp": "2026-10-18T23:19:36.647576"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 90,
+    "run": 1,
+    "timestamp": "2026-10-18T23:19:40.471576"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 1,
+    "timestamp": "2026-10-18T23:19:43.871238"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 95,
+    "run": 2,
+    "timestamp": "2026-10-18T23:19:47.679326"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 50,
+    "run": 2,
+    "timestamp": "2026-10-18T23:19:51.439166"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 90,
+    "run": 3,
+    "timestamp": "2026-10-18T23:19:55.256832"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 0,
+    "run": 3,
+    "timestamp": "2026-10-18T23:19:58.292015"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 85,
+    "run": 4,
+    "timestamp": "2026-10-18T23:20:02.108476"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 4,
+    "timestamp": "2026-10-18T23:20:05.509214"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 95,
+    "run": 5,
+    "timestamp": "2026-10-18T23:20:09.321932"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 5,
+    "timestamp": "2026-10-18T23:20:12.723843"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 50,
+    "run": 6,
+    "timestamp": "2026-10-18T23:20:16.860576"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 25,
+    "run": 6,
+    "timestamp": "2026-10-18T23:20:20.224768"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 50,
+    "run": 7,
+    "timestamp": "2026-10-18T23:20:26.183712"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 7,
+    "timestamp": "2026-10-18T23:20:29.544820"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 75,
+    "run": 8,
+    "timestamp": "2026-10-18T23:20:33.348832"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 8,
+    "timestamp": "2026-10-18T23:20:36.742534"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "dem_thermometer",
+    "response": 85,
+    "run": 9,
+    "timestamp": "2026-10-18T23:20:40.561404"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 9,
+    "timestamp": "2026-10-18T23:20:43.957670"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 35,
+    "run": 0,
+    "timestamp": "2026-10-18T23:20:47.934093"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 0,
+    "timestamp": "2026-10-18T23:20:53.629096"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 60,
+    "run": 1,
+    "timestamp": "2026-10-18T23:20:57.609687"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 25,
+    "run": 1,
+    "timestamp": "2026-10-18T23:21:01.157599"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 20,
+    "run": 2,
+    "timestamp": "2026-10-18T23:21:05.135537"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 20,
+    "run": 2,
+    "timestamp": "2026-10-18T23:21:08.690922"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 40,
+    "run": 3,
+    "timestamp": "2026-10-18T23:21:12.674139"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 50,
+    "run": 3,
+    "timestamp": "2026-10-18T23:21:18.320670"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 50,
+    "run": 4,
+    "timestamp": "2026-10-18T23:21:22.267040"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 65,
+    "run": 4,
+    "timestamp": "2026-10-18T23:21:27.932646"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 45,
+    "run": 5,
+    "timestamp": "2026-10-18T23:21:31.876185"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 60,
+    "run": 5,
+    "timestamp": "2026-10-18T23:21:35.421791"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 40,
+    "run": 6,
+    "timestamp": "2026-10-18T23:21:39.415945"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 6,
+    "timestamp": "2026-10-18T23:21:42.975067"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 20,
+    "run": 7,
+    "timestamp": "2026-10-18T23:21:46.943638"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 25,
+    "run": 7,
+    "timestamp": "2026-10-18T23:21:50.501929"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 10,
+    "run": 8,
+    "timestamp": "2026-10-18T23:21:54.496111"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 70,
+    "run": 8,
+    "timestamp": "2026-10-18T23:21:58.039202"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 20,
+    "run": 9,
+    "timestamp": "2026-10-18T23:22:02.022694"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 70,
+    "run": 9,
+    "timestamp": "2026-10-18T23:22:05.577883"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 60,
+    "run": 0,
+    "timestamp": "2026-10-18T23:22:09.443005"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 0,
+    "timestamp": "2026-10-18T23:22:12.894624"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 50,
+    "run": 1,
+    "timestamp": "2026-10-18T23:22:16.737508"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 5,
+    "run": 1,
+    "timestamp": "2026-10-18T23:22:19.804157"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 70,
+    "run": 2,
+    "timestamp": "2026-10-18T23:22:23.637583"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 2,
+    "timestamp": "2026-10-18T23:22:27.052402"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 65,
+    "run": 3,
+    "timestamp": "2026-10-18T23:22:30.874835"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 15,
+    "run": 3,
+    "timestamp": "2026-10-18T23:22:34.315420"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 80,
+    "run": 4,
+    "timestamp": "2026-10-18T23:22:38.176239"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 4,
+    "timestamp": "2026-10-18T23:22:41.651876"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 85,
+    "run": 5,
+    "timestamp": "2026-10-18T23:22:45.515384"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 15,
+    "run": 5,
+    "timestamp": "2026-10-18T23:22:48.978146"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 70,
+    "run": 6,
+    "timestamp": "2026-10-18T23:22:52.847176"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 6,
+    "timestamp": "2026-10-18T23:22:56.290140"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 50,
+    "run": 7,
+    "timestamp": "2026-10-18T23:23:00.157328"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 15,
+    "run": 7,
+    "timestamp": "2026-10-18T23:23:03.596601"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 85,
+    "run": 8,
+    "timestamp": "2026-10-18T23:23:07.471793"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 30,
+    "run": 8,
+    "timestamp": "2026-10-18T23:23:10.918800"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 85,
+    "run": 9,
+    "timestamp": "2026-10-18T23:23:14.795034"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 45,
+    "run": 9,
+    "timestamp": "2026-10-18T23:23:18.210176"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 50,
+    "run": 0,
+    "timestamp": "2026-10-18T23:23:24.125105"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 20,
+    "run": 0,
+    "timestamp": "2026-10-18T23:23:27.487310"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 75,
+    "run": 1,
+    "timestamp": "2026-10-18T23:23:33.392686"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 1,
+    "timestamp": "2026-10-18T23:23:36.767311"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 60,
+    "run": 2,
+    "timestamp": "2026-10-18T23:23:40.587147"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 20,
+    "run": 2,
+    "timestamp": "2026-10-18T23:23:43.980147"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 60,
+    "run": 3,
+    "timestamp": "2026-10-18T23:23:47.796059"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 3,
+    "timestamp": "2026-10-18T23:23:51.182591"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 80,
+    "run": 4,
+    "timestamp": "2026-10-18T23:23:55.012219"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 4,
+    "timestamp": "2026-10-18T23:23:58.391274"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 80,
+    "run": 5,
+    "timestamp": "2026-10-18T23:24:02.201232"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 5,
+    "timestamp": "2026-10-18T23:24:05.580624"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 85,
+    "run": 6,
+    "timestamp": "2026-10-18T23:24:11.586792"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 6,
+    "timestamp": "2026-10-18T23:24:14.964548"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 80,
+    "run": 7,
+    "timestamp": "2026-10-18T23:24:18.752022"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 20,
+    "run": 7,
+    "timestamp": "2026-10-18T23:24:22.111424"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 80,
+    "run": 8,
+    "timestamp": "2026-10-18T23:24:25.899794"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 10,
+    "run": 8,
+    "timestamp": "2026-10-18T23:24:29.251060"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "dem_thermometer",
+    "response": 75,
+    "run": 9,
+    "timestamp": "2026-10-18T23:24:33.037119"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "rep_thermometer",
+    "response": 25,
+    "run": 9,
+    "timestamp": "2026-10-18T23:24:36.428034"
+  }
+]

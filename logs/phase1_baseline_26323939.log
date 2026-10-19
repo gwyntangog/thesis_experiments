@@ -1,0 +1,127 @@
+========================================
+Phase 1: Baseline Consistency & Fidelity
+========================================
+[Step 1/3] Running baseline survey...
+[Loading Model] mistralai/Mistral-7B-Instruct-v0.1...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:09<00:09,  9.77s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:14<00:00,  6.59s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:14<00:00,  7.07s/it]
+[✓] Model loaded successfully
+
+[Republican, HS, Conservative]
+================================================================================
+  Running 10 iterations: 1 The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+2 3 4 5 6 7 8 9 10 
+
+[Republican, College, Conservative]
+================================================================================
+  Running 10 iterations: 1 2 3 4 5 6 7 8 9 10 
+
+[Republican, Graduate, Conservative]
+================================================================================
+  Running 10 iterations: 1 2 3 4 5 6 7 8 9 10 
+
+[Democrat, HS, Liberal]
+================================================================================
+  Running 10 iterations: 1 2 3 4 5 6 7 8 9 10 
+
+[Democrat, College, Liberal]
+================================================================================
+  Running 10 iterations: 1 2 3 4 5 6 7 8 9 10 
+
+[Democrat, Graduate, Liberal]
+================================================================================
+  Running 10 iterations: 1 2 3 4 5 6 7 8 9 10 
+
+[Independent, HS, Moderate]
+================================================================================
+  Running 10 iterations: 1 2 3 4 5 6 7 8 9 10 
+
+[Independent, College, Moderate]
+================================================================================
+  Running 10 iterations: 1 2 3 4 5 6 7 8 9 10 
+
+[Independent, Graduate, Moderate]
+================================================================================
+  Running 10 iterations: 1 2 3 4 5 6 7 8 9 10 
+
+================================================================================
+[✓] Baseline responses saved to: data/results/baseline_responses_20261018_230027.json
+[✓] Total responses: 180
+================================================================================
+Using: baseline_responses_20261018_230027.json
+[Step 2/3] Measuring consistency...
+
+================================================================================
+CONSISTENCY ANALYSIS
+================================================================================
+
+Democrat, College, Liberal:
+--------------------------------------------------------------------------------
+  dem_thermometer     : Mean=  84.0, Std=   5.4, CV=   6.4%, Range=[ 70,  90]
+  rep_thermometer     : Mean=  14.5, Std=   6.9, CV=  47.4%, Range=[  5,  25]
+
+Democrat, Graduate, Liberal:
+--------------------------------------------------------------------------------
+  dem_thermometer     : Mean=  82.5, Std=   6.0, CV=   7.3%, Range=[ 75,  95]
+  rep_thermometer     : Mean=  18.0, Std=  12.9, CV=  71.6%, Range=[  0,  50]
+
+Democrat, HS, Liberal:
+--------------------------------------------------------------------------------
+  dem_thermometer     : Mean=  83.0, Std=  11.7, CV=  14.1%, Range=[ 50,  95]
+  rep_thermometer     : Mean=  10.0, Std=   4.5, CV=  44.7%, Range=[  0,  20]
+
+Independent, College, Moderate:
+--------------------------------------------------------------------------------
+  dem_thermometer     : Mean=  71.5, Std=   8.4, CV=  11.7%, Range=[ 50,  80]
+  rep_thermometer     : Mean=  18.5, Std=  13.0, CV=  70.5%, Range=[ 10,  50]
+
+Independent, Graduate, Moderate:
+--------------------------------------------------------------------------------
+  dem_thermometer     : Mean=  66.0, Std=   8.6, CV=  13.0%, Range=[ 55,  80]
+  rep_thermometer     : Mean=  13.0, Std=   4.0, CV=  30.8%, Range=[ 10,  20]
+
+Independent, HS, Moderate:
+--------------------------------------------------------------------------------
+  dem_thermometer     : Mean=  33.0, Std=  14.5, CV=  44.0%, Range=[ 10,  55]
+  rep_thermometer     : Mean=  48.0, Std=  18.5, CV=  38.5%, Range=[  5,  70]
+
+Republican, College, Conservative:
+--------------------------------------------------------------------------------
+  dem_thermometer     : Mean=  16.0, Std=  12.0, CV=  75.0%, Range=[ 10,  50]
+  rep_thermometer     : Mean=  83.5, Std=  12.7, CV=  15.2%, Range=[ 50,  95]
+
+Republican, Graduate, Conservative:
+--------------------------------------------------------------------------------
+  dem_thermometer     : Mean=  11.5, Std=   5.9, CV=  51.6%, Range=[  5,  25]
+  rep_thermometer     : Mean=  71.5, Std=  18.4, CV=  25.8%, Range=[ 50,  95]
+
+Republican, HS, Conservative:
+--------------------------------------------------------------------------------
+  dem_thermometer     : Mean=  11.5, Std=  13.2, CV= 115.1%, Range=[  0,  50]
+  rep_thermometer     : Mean=  80.0, Std=  15.3, CV=  19.2%, Range=[ 50,  90]
+
+
+================================================================================
+CONSISTENCY SUMMARY
+================================================================================
+
+By Persona (average CV across questions):
+  Independent, Graduate, Moderate         : CV =   21.9%
+  Democrat, College, Liberal              : CV =   26.9%
+  Democrat, HS, Liberal                   : CV =   29.4%
+  Republican, Graduate, Conservative      : CV =   38.7%
+  Democrat, Graduate, Liberal             : CV =   39.4%
+  Independent, College, Moderate          : CV =   41.1%
+  Independent, HS, Moderate               : CV =   41.2%
+  Republican, College, Conservative       : CV =   45.1%
+  Republican, HS, Conservative            : CV =   67.1%
+
+By Question (average CV across personas):
+  dem_thermometer     : CV =   37.6%
+  rep_thermometer     : CV =   40.4%
+
+[✓] Consistency metrics saved to: data/results/consistency_metrics_20261018_230027.json
+[Step 3/3] Measuring fidelity...
+
+========================================
+Phase 1 Complete!
+========================================
