@@ -1,0 +1,182 @@
+[
+  {
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "dem_thermometer",
+    "mean": 80.5,
+    "std": 8.5,
+    "cv": 10.559006211180124,
+    "min": 70.0,
+    "max": 95.0,
+    "n_runs": 10
+  },
+  {
+    "persona_name": "Democrat, College, Liberal",
+    "q_id": "rep_thermometer",
+    "mean": 14.5,
+    "std": 5.678908345800274,
+    "cv": 39.164885143450164,
+    "min": 10.0,
+    "max": 25.0,
+    "n_runs": 10
+  },
+  {
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "dem_thermometer",
+    "mean": 67.5,
+    "std": 12.093386622447824,
+    "cv": 17.91612832955233,
+    "min": 50.0,
+    "max": 90.0,
+    "n_runs": 10
+  },
+  {
+    "persona_name": "Democrat, Graduate, Liberal",
+    "q_id": "rep_thermometer",
+    "mean": 19.5,
+    "std": 12.737739202856996,
+    "cv": 65.32173950183076,
+    "min": 10.0,
+    "max": 50.0,
+    "n_runs": 10
+  },
+  {
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "dem_thermometer",
+    "mean": 72.0,
+    "std": 11.661903789690601,
+    "cv": 16.197088596792504,
+    "min": 50.0,
+    "max": 90.0,
+    "n_runs": 10
+  },
+  {
+    "persona_name": "Democrat, HS, Liberal",
+    "q_id": "rep_thermometer",
+    "mean": 19.0,
+    "std": 15.7797338380595,
+    "cv": 83.05123072662894,
+    "min": 10.0,
+    "max": 50.0,
+    "n_runs": 10
+  },
+  {
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "dem_thermometer",
+    "mean": 67.5,
+    "std": 8.139410298049853,
+    "cv": 12.058385626740522,
+    "min": 50.0,
+    "max": 75.0,
+    "n_runs": 10
+  },
+  {
+    "persona_name": "Independent, College, Moderate",
+    "q_id": "rep_thermometer",
+    "mean": 27.5,
+    "std": 9.5524865872714,
+    "cv": 34.73631486280509,
+    "min": 20.0,
+    "max": 50.0,
+    "n_runs": 10
+  },
+  {
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "dem_thermometer",
+    "mean": 62.5,
+    "std": 11.236102527122116,
+    "cv": 17.977764043395386,
+    "min": 50.0,
+    "max": 80.0,
+    "n_runs": 10
+  },
+  {
+    "persona_name": "Independent, Graduate, Moderate",
+    "q_id": "rep_thermometer",
+    "mean": 19.0,
+    "std": 8.0,
+    "cv": 42.10526315789473,
+    "min": 10.0,
+    "max": 30.0,
+    "n_runs": 10
+  },
+  {
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "dem_thermometer",
+    "mean": 40.0,
+    "std": 11.61895003862225,
+    "cv": 29.047375096555626,
+    "min": 20.0,
+    "max": 50.0,
+    "n_runs": 10
+  },
+  {
+    "persona_name": "Independent, HS, Moderate",
+    "q_id": "rep_thermometer",
+    "mean": 46.5,
+    "std": 17.03672503740082,
+    "cv": 36.63811836000176,
+    "min": 25.0,
+    "max": 75.0,
+    "n_runs": 10
+  },
+  {
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "dem_thermometer",
+    "mean": 17.0,
+    "std": 7.810249675906654,
+    "cv": 45.94264515239208,
+    "min": 10.0,
+    "max": 30.0,
+    "n_runs": 10
+  },
+  {
+    "persona_name": "Republican, College, Conservative",
+    "q_id": "rep_thermometer",
+    "mean": 87.0,
+    "std": 4.58257569495584,
+    "cv": 5.267328385006712,
+    "min": 80.0,
+    "max": 95.0,
+    "n_runs": 10
+  },
+  {
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "dem_thermometer",
+    "mean": 17.0,
+    "std": 8.717797887081348,
+    "cv": 51.28116404165499,
+    "min": 10.0,
+    "max": 35.0,
+    "n_runs": 10
+  },
+  {
+    "persona_name": "Republican, Graduate, Conservative",
+    "q_id": "rep_thermometer",
+    "mean": 80.5,
+    "std": 6.103277807866851,
+    "cv": 7.581711562567516,
+    "min": 70.0,
+    "max": 90.0,
+    "n_runs": 10
+  },
+  {
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "dem_thermometer",
+    "mean": 20.0,
+    "std": 15.491933384829668,
+    "cv": 77.45966692414834,
+    "min": 10.0,
+    "max": 50.0,
+    "n_runs": 10
+  },
+  {
+    "persona_name": "Republican, HS, Conservative",
+    "q_id": "rep_thermometer",
+    "mean": 80.0,
+    "std": 9.746794344808963,
+    "cv": 12.183492931011203,
+    "min": 60.0,
+    "max": 90.0,
+    "n_runs": 10
+  }
+]

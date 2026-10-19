@@ -1,0 +1,110 @@
+[
+  {
+    "persona_id": "p_rep_hs_conservative",
+    "persona_name": "Republican, HS, Conservative",
+    "priorities": {
+      "economy": 5,
+      "healthcare": 5,
+      "immigration": 5,
+      "climate": 5,
+      "education": 5
+    },
+    "timestamp": "2026-10-18T23:55:40.166676"
+  },
+  {
+    "persona_id": "p_rep_col_conservative",
+    "persona_name": "Republican, College, Conservative",
+    "priorities": {
+      "economy": 8,
+      "healthcare": 7,
+      "immigration": 5,
+      "climate": 3,
+      "education": 9
+    },
+    "timestamp": "2026-10-18T23:55:50.391063"
+  },
+  {
+    "persona_id": "p_rep_grad_conservative",
+    "persona_name": "Republican, Graduate, Conservative",
+    "priorities": {
+      "economy": 5,
+      "healthcare": 5,
+      "immigration": 5,
+      "climate": 5,
+      "education": 5
+    },
+    "timestamp": "2026-10-18T23:55:58.736337"
+  },
+  {
+    "persona_id": "p_dem_hs_liberal",
+    "persona_name": "Democrat, HS, Liberal",
+    "priorities": {
+      "economy": 5,
+      "healthcare": 5,
+      "immigration": 5,
+      "climate": 5,
+      "education": 5
+    },
+    "timestamp": "2026-10-18T23:56:09.611554"
+  },
+  {
+    "persona_id": "p_dem_col_liberal",
+    "persona_name": "Democrat, College, Liberal",
+    "priorities": {
+      "economy": 5,
+      "healthcare": 5,
+      "immigration": 5,
+      "climate": 5,
+      "education": 5
+    },
+    "timestamp": "2026-10-18T23:56:21.155135"
+  },
+  {
+    "persona_id": "p_dem_grad_liberal",
+    "persona_name": "Democrat, Graduate, Liberal",
+    "priorities": {
+      "economy": 5,
+      "healthcare": 5,
+      "immigration": 5,
+      "climate": 5,
+      "education": 5
+    },
+    "timestamp": "2026-10-18T23:56:32.229531"
+  },
+  {
+    "persona_id": "p_ind_hs_moderate",
+    "persona_name": "Independent, HS, Moderate",
+    "priorities": {
+      "economy": 5,
+      "healthcare": 5,
+      "immigration": 5,
+      "climate": 5,
+      "education": 5
+    },
+    "timestamp": "2026-10-18T23:56:43.533726"
+  },
+  {
+    "persona_id": "p_ind_col_moderate",
+    "persona_name": "Independent, College, Moderate",
+    "priorities": {
+      "economy": 5,
+      "healthcare": 5,
+      "immigration": 5,
+      "climate": 5,
+      "education": 5
+    },
+    "timestamp": "2026-10-18T23:56:51.007863"
+  },
+  {
+    "persona_id": "p_ind_grad_moderate",
+    "persona_name": "Independent, Graduate, Moderate",
+    "priorities": {
+      "economy": 5,
+      "healthcare": 5,
+      "immigration": 5,
+      "climate": 5,
+      "education": 5
+    },
+    "timestamp": "2026-10-18T23:57:02.264684"
+  }
+]
