@@ -1,3 +1,5 @@
 data/human_survey/*.csv
 data/human_survey/*.dta
 data/human_survey/*.xlsx
+data/human_survey/human_resp/*
+data/human_survey/model_input/*
