@@ -1,0 +1,216 @@
+info.csv: 78 questions
+Columns: ['Unnamed: 0.2', 'Unnamed: 0.1', 'Unnamed: 0', 'key', 'option_mapping', 'question', 'references', 'option_ordinal']
+
+[SAFECRIME_W26] How safe, if at all, would you say your local community is from crime? Would you say it is
+   options: {1.0: 'Very safe', 2.0: 'Somewhat safe', 3.0: 'Not too safe', 4.0: 'Not at all safe', 99.0: 'Refused'}
+
+[WORLDDANGER_W26] Compared to 50 years ago, do you think
+   options: {1.0: 'We live in a safer world', 2.0: 'We live in a more dangerous world', 3.0: 'The world we live in is neither safer nor more dangerous', 99.0: 'Refused'}
+
+[WORRYA_W26] How much, if at all, do you worry about the following happening to you? Having your home broken into
+   options: {1.0: 'Worry a lot', 2.0: 'Worry a little', 3.0: 'Do not worry at all', 99.0: 'Refused'}
+
+[WORRYB_W26] How much, if at all, do you worry about the following happening to you? Being the victim of a terrorist attack
+   options: {1.0: 'Worry a lot', 2.0: 'Worry a little', 3.0: 'Do not worry at all', 99.0: 'Refused'}
+
+[WORRYC_W26] How much, if at all, do you worry about the following happening to you? Losing your job
+   options: {1.0: 'Worry a lot', 2.0: 'Worry a little', 3.0: 'Do not worry at all', 99.0: 'Refused'}
+
+============================================================
+metadata.csv: 12 variables
+CREGION: ['Northeast', 'Midwest', 'South', 'West']
+AGE: ['18-29', '30-49', '50-64', '65+']
+SEX: ['Male', 'Female']
+EDUCATION: ['Less than high school', 'High school graduate', 'Some college, no degree', "Associate's degree", 'College graduate/some postgrad', 'Postgraduate']
+CITIZEN: ['Yes', 'No']
+MARITAL: ['Married', 'Divorced', 'Separated', 'Widowed', 'Never been married']
+RELIG: ['Protestant', 'Roman Catholic', 'Mormon', 'Orthodox', 'Jewish', 'Muslim', 'Buddhist', 'Hindu', 'Atheist', 'Agnostic', 'Other', 'Nothing in particular']
+RELIGATTEND: ['More than once a week', 'Once a week', 'Once or twice a month', 'A few times a year', 'Seldom', 'Never']
+POLPARTY: ['Republican', 'Democrat', 'Independent', 'Other']
+INCOME: ['Less than $30,000', '$30,000-$50,000', '$50,000-$75,000', '$75,000-$100,000', '$100,000 or more']
+POLIDEOLOGY: ['Very conservative', 'Conservative', 'Moderate', 'Liberal', 'Very liberal']
+RACE: ['White', 'Black', 'Asian', 'Hispanic', 'Other']
+
+============================================================
+responses.csv: 4168 respondents, 151 columns
+
+ALL COLUMNS:
+    0  Unnamed: 0.2
+    1  Unnamed: 0.1
+    2  Unnamed: 0
+    3  index
+    4  QKEY
+    5  NEW_Device_Type_W26
+    6  LANGUAGE_W26
+    7  FORM_W26
+    8  SATISF_W26
+    9  SATISFY_W26
+   10  POL1DT_W26
+   11  POL1DTSTR_W26
+   12  SAFECRIME_W26
+   13  WORLDDANGER_W26
+   14  WORRYA_W26
+   15  WORRYB_W26
+   16  WORRYC_W26
+   17  WORRYD_W26
+   18  WORRYE_W26
+   19  WORRYF_W26
+   20  WORRYG_W26
+   21  DESCRIBEA_W26
+   22  DESCRIBEB_W26
+   23  DESCRIBEC_W26
+   24  DESCRIBED_W26
+   25  GUN_W26
+   26  GUN1_W26
+   27  SELFGUN_W26
+   28  GUNHOUSE_W26
+   29  EVEROWN_W26
+   30  COULDOWN_W26
+   31  NEVEROWN_W26
+   32  GUNTYPEOWNA_W26
+   33  GUNTYPEOWNB_W26
+   34  GUNTYPEOWNC_W26
+   35  EVERSHOT_W26
+   36  SHOOTAGE_1_W26
+   37  REASONGUNA_W26
+   38  REASONGUNB_W26
+   39  REASONGUNC_W26
+   40  REASONGUND_W26
+   41  REASONGUNE_W26
+   42  IMPREASONGUN_W26
+   43  GUNIDENTITY_W26
+   44  GUNFRIEND_W26
+   45  GUNSOCIETY_W26
+   46  GUNCOMMUNITY_W26
+   47  KNOWGUN_W26
+   48  HUNTFREQ_W26
+   49  SHOOTFREQ_W26
+   50  TRUSTFEDGOV_W26
+   51  SOCTRUST_W26
+   52  GUNSAFE_W26
+   53  GUNSAFE2_W26
+   54  GUNCOURSES_W26
+   55  GUNACCESS_W26
+   56  GUNLOCKED1_W26
+   57  GUNLOADED1_W26
+   58  GUNLOCKED2_W26
+   59  GUNLOADED2_W26
+   60  GUNCONTRIBA_W26
+   61  GUNCONTRIBB_W26
+   62  GUNCONTRIBC_W26
+   63  GUNCONTRIBD_W26
+   64  GUNCONTRIBE_W26
+   65  GUNCONTRIBF_W26
+   66  GROWUPCOM_W26
+   67  GROWUPVIOL_W26
+   68  GROWUPGUN1_W26
+   69  GROWUPGUN2A_W26
+   70  GROWUPGUN2B_W26
+   71  GROWUPGUN2C_W26
+   72  GROWUPGUN4_W26
+   73  GROWUPGUN5_W26
+   74  GROWUPGUN6_W26
+   75  GROWUPGUN7_W26
+   76  OWNAGE_1_W26
+   77  GUNRESPNOKIDSA_W26
+   78  GUNRESPNOKIDSB_W26
+   79  GUNRESPNOKIDSC_W26
+   80  GUNRESPNOKIDSD_W26
+   81  GUNRESPNOKIDSE_W26
+   82  GUNRESPNOKIDSF_W26
+   83  GUNRESPNOKIDSG_W26
+   84  GUNRESPKIDSA_W26
+   85  GUNRESPKIDSB_W26
+   86  GUNRESPKIDSC_W26
+   87  GUNRESPKIDSD_W26
+   88  GUNRESPKIDSE_W26
+   89  GUNRESPKIDSF_W26
+   90  GUNRESPKIDSG_W26
+   91  GUNRESPKIDSH_W26
+   92  GUNSAFETYKIDS_W26
+   93  CARRYGUN_W26
+   94  NOCARRYGUN_W26
+   95  GUNKILLF1_W26
+   96  GUNKILLF2_W26
+   97  DEFENDGUN_W26
+   98  GUNTHREAT_W26
+   99  INJUREDA_W26
+  100  INJUREDB_W26
+  101  CRIMEVICTIM_W26
+  102  MARGUN_W26
+  103  GUNASSOCIATIONA_W26
+  104  GUNASSOCIATIONB_W26
+  105  GUNASSOCIATIONC_W26
+  106  GUNACTIVITYA_W26
+  107  GUNACTIVITYB_W26
+  108  GUNACTIVITYC_W26
+  109  GUNACTIVITYD_W26
+  110  GUNACTIVITYE_W26
+  111  VIDEOGAME1_W26
+  112  GAMETYPE_A_W26
+  113  GAMETYPE_B_W26
+  114  GAMETYPE_C_W26
+  115  GAMETYPE_D_W26
+  116  GAMETYPE_E_W26
+  117  GAMETYPE_F_W26
+  118  GAMETYPE_G_W26
+  119  GAMETYPE_H_W26
+  120  GAMETYPEREF_W26
+  121  CREGION
+  122  AGE
+  123  SEX
+  124  F_EDUCCAT_FINAL
+  125  EDUCATION
+  126  F_HISP_RECRUITMENT
+  127  F_RACECMB_RECRUITMENT
+  128  F_RACETHN_RECRUITMENT
+  129  CITIZEN
+  130  MARITAL
+  131  RELIG
+  132  F_BORN_FINAL
+  133  RELIGATTEND
+  134  POLPARTY
+  135  F_PARTYLN_FINAL
+  136  F_PARTYSUM_FINAL
+  137  INCOME
+  138  F_REG_FINAL
+  139  POLIDEOLOGY
+  140  F_IDEOCONSISTREC_RECRUITMENT
+  141  F_INTUSER_FINAL
+  142  F_INSURANCE_FINAL
+  143  F_INT_FREQ1_FINAL
+  144  F_INT_FREQCOMB_FINAL
+  145  F_SNSUSER_FINAL
+  146  F_BBINT_RF1
+  147  WEIGHT_W26
+  148  WEIGHT_W25W26
+  149  W25W26_FLAG
+  150  RACE
+
+============================================================
+Columns matching demographic/weight keywords: ['LANGUAGE_W26', 'SHOOTAGE_1_W26', 'OWNAGE_1_W26', 'VIDEOGAME1_W26', 'CREGION', 'AGE', 'SEX', 'F_EDUCCAT_FINAL', 'EDUCATION', 'F_RACECMB_RECRUITMENT', 'F_RACETHN_RECRUITMENT', 'POLPARTY', 'F_PARTYLN_FINAL', 'F_PARTYSUM_FINAL', 'POLIDEOLOGY', 'F_IDEOCONSISTREC_RECRUITMENT', 'WEIGHT_W26', 'WEIGHT_W25W26', 'RACE']
+
+--- value counts: SEX
+SEX
+Female    2110
+Male      2058
+
+--- weight summary: WEIGHT_W26
+count    4168.000000
+mean        1.000000
+std         1.361843
+min         0.087769
+25%         0.237162
+50%         0.485210
+75%         1.144509
+max         7.330384
+
+--- weight summary: WEIGHT_W25W26
+count    3930.000000
+mean        1.000000
+std         1.450741
+min         0.098722
+25%         0.241465
+50%         0.466672
+75%         1.087161
+max         8.375901
